@@ -7,6 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Phase 5 — 스토리보드 + Gemini 프롬프트 14장 (2026-04-22 ~ 2026-04-23)
+
+#### Added
+- `slides/storyboard.md` — 14장 전체 구성 (snu_neurox 테마, 16:9, 공통 디자인 원칙)
+- `slides/prompts/01_title.md` ~ `14_wrap-up.md` — 14개 Gemini nanobanana2 프롬프트
+- `docs/pdca/phase-5/` — plan.md, do.md, check.md
+
+#### Labs 반영
+- **Slide 6 (DB 구축)** — 이상아 Lab 중심: fMRI/EEG 감정 연합 + 가상공간 탐험 EEG 2개 실험 (from Google Slides)
+- **Slide 8 (다중 모달리티)** — 문태섭 Lab 중심: SEED 평가 체계 + Vision-Language Model (from Google Slides)
+
+#### Validated
+- 14/14 `prompt_constraints.py` 통과 (ERROR 0건, WARN 허용)
+- 수치 정합성: 97.5%, 17편, 4건, 600,000천원 등 `data/*.yaml` 추적 가능
+
+#### Skipped
+- **Phase 3·4 (보고서 Markdown/PDF)**: 원본 제출본이 공식 버전이므로 재작성 불필요
+
+#### Pending (Phase 6)
+- Gemini API 키 환경변수 설정
+- `infographics` 스킬 `generate_image.py` 실행 (14 × 1 variant ≈ $4-6)
+- 차지욱 Lab 자료 (Slide 7 refine), 최형진 Lab 자료 (Slide 6 animal) — optional
+
 ### Phase 2 — 데이터 구조화 (YAML 레이어) (2026-04-22)
 
 #### Added
