@@ -7,6 +7,10 @@
 - thinking_mode: high
 - language: ko
 
+## Rendering Rule
+- Text with pt size + color specifications → RENDER in image
+- Design instructions (layout, positioning) → DO NOT render, follow as structure guide
+
 ## MASTER THEME (snu_neurox)
 - Layout: 2×2 quadrant matrix
 
@@ -26,12 +30,12 @@ Top-left quadrant (학문적):
 - Icon: flat graduation cap or book
 - Category label: "학문적 효과" in 22pt Bold #003380
 - 3 bullets in 18pt #282945:
-  - "UKB · ABCD급 대규모 데이터 공유 촉진"
-  - "한국인 특이 신경과학 지식 획득 기여"
-  - "파운데이션 모델 → 뇌인지 메커니즘 연구 가속"
+  - "BrainLife 공유 · UKB · ABCD급 데이터 공유 촉진"
+  - "정서 디코딩 후속연구 · 인지신경과학 메커니즘"
+  - "아동 뇌인지 발달 · 성인 뇌노화 궤적 연구 적용"
 
 Top-right quadrant (의과학):
-- Light background: very light peach/cream
+- Light background: #FDECE2 (peach, D55E00 tint 10%)
 - Icon: flat medical cross
 - Category label: "의과학 기술 효과" in 22pt Bold #003380
 - 3 bullets:
@@ -40,29 +44,27 @@ Top-right quadrant (의과학):
   - "개인 맞춤형 정신질환 치료 기여"
 
 Bottom-left quadrant (교육):
-- Light background: very light green tint
+- Light background: #E7F0ED (11604B tint 10%)
 - Icon: flat lightbulb
 - Category label: "교육적 효과" in 22pt Bold #003380
-- 2 bullets:
-  - "신경과학 초거대 인공지능 박사급 인력 양성"
-  - "인간형 AI: 자주적 윤리·도덕·심리 탑재"
+- 3 bullets:
+  - "신경과학·초거대 AI 융합 박사급 인력 양성"
+  - "윤리·가치 정렬형 인간형 AI 연구 기반"
+  - "국제 공동연구 · 연구자 교류 네트워크"
 
 Bottom-right quadrant (사회산업):
-- Light background: very light purple/lavender tint
+- Light background: #EFEAF7 (lavender, 584B9F tint 10%)
 - Icon: flat factory/chart symbol
 - Category label: "사회·산업적 효과" in 22pt Bold #003380
 - 3 bullets:
-  - "마케팅 · 엔터테인먼트 선호도 예측"
-  - "소아청소년 자살 예방 상담 도구"
-  - "자살·범죄 예방 AI 기술 응용"
+  - "마케팅 · 엔터테인먼트 선호 예측 기술"
+  - "소아청소년 정신건강 조기개입 도구"
+  - "공공 안전 AI 응용 가능성 확보"
 
 Bottom-right: "13 / 14" in 12pt #5A5A6E.
 
 ## Style Rules
-- Equal-sized 2×2 quadrants
-- 4 distinct soft-tint backgrounds to differentiate categories
-- Max 3 bullets per quadrant
-- Short noun-phrase bullets (no long sentences)
+- Equal 2×2 quadrants · 4 soft tint backgrounds · max 3 noun-phrase bullets.
 
 ## Consistency Lock
 snu_neurox theme, same card sizing discipline as Slide 4.

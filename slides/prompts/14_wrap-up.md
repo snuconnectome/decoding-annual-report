@@ -7,6 +7,10 @@
 - thinking_mode: high
 - language: ko
 
+## Rendering Rule
+- Text with pt size + color specifications → RENDER in image
+- Design instructions (layout, positioning) → DO NOT render, follow as structure guide
+
 ## MASTER THEME (snu_neurox)
 - Layout: 3 takeaway cards + closing thanks
 
@@ -27,25 +31,25 @@ Card 1 (Takeaway 1):
 - Description: "4개 평가항목 · 전부 100% 달성" in 14pt #282945
 
 Card 2 (Takeaway 2):
-- Big text on top: "5 종" in 48pt Black Bold #E69F00
-- Label: "멀티스케일 파운데이션 모델" in 22pt Bold #003380
-- Description: "SwiFT · DIVER · POYO · MBBN · TabLeT" in 14pt #282945
+- Big text on top: "5개" in 48pt Black Bold #E69F00
+- Label: "세부 연구 · 멀티스케일 파운데이션" in 22pt Bold #003380
+- Description: "SwiFT · DIVER-1 · NeuroMamba · TabLeT 등" in 14pt #282945
 
 Card 3 (Takeaway 3):
-- Big number on top: "600M" in 48pt Black Bold #E69F00
-- Label: "4차년도 예산 (단위: 천원)" in 22pt Bold #003380
+- Big number on top: "6억원" in 48pt Black Bold #E69F00
+- Label: "4차년도 예산 (600,000천원)" in 22pt Bold #003380
 - Description: "종간 파운데이션 사전학습 진행" in 14pt #282945
 
 Bottom area (lower 25% of slide height):
-- Centered large text: "감사합니다 · Thank you" in 40pt Bold #003380
-- Below: "Q & A" in 32pt Bold #E69F00 centered
-- Very small caption at bottom 14pt #5A5A6E: "서울대학교 · connectome Lab · @snu.ac.kr"
+- Centered large text: "감사합니다" in 40pt Bold #003380
+- Below: "질의응답 (Q&A)" in 28pt Bold #E69F00 centered
+- Very small caption at bottom 14pt #5A5A6E: "서울대학교 · snu.ac.kr"
 
 Bottom-right: "14 / 14" in 12pt #5A5A6E.
 
 ## Style Rules
 - 3 summary cards matching the storyboard takeaways
-- Closing "감사합니다 · Q & A" visually prominent
+- Closing "감사합니다 · Q&A" visually prominent
 - No personal contact info beyond the institutional domain
 
 ## Consistency Lock

@@ -7,6 +7,10 @@
 - thinking_mode: high
 - language: ko
 
+## Rendering Rule
+- Text with pt size + color specifications → RENDER in image
+- Design instructions (layout, positioning) → DO NOT render, follow as structure guide
+
 ## MASTER THEME (snu_neurox)
 - Layout: 2x2 grid of cards with weight badges
 
@@ -22,27 +26,27 @@ Subtitle below title: "4개 평가항목 · 각 25% · 합계 달성도 97.5%" i
 
 Main area (central 70% of slide): 2×2 grid of 4 rounded rectangle cards with equal sizes. Each card has #EDF6FC fill, thin #0072B2 outline, 24px padding.
 
-Top-left card (①):
+Top-left card (평가항목 #1):
 - Top-left corner: [25%] badge in 22pt Bold on circular #E69F00 background (white text inside)
 - Card center title: "뇌-환경 상호작용 데이터베이스 구축" in 22pt Bold #003380
-- Small subtitle: "세부목표 1-1, 1-2" in 14pt #5A5A6E
+- Small subtitle: "평가항목 #1 · 세부목표 1-1, 1-2" in 14pt #5A5A6E
 
-Top-right card (②):
+Top-right card (평가항목 #2):
 - [25%] badge
 - Title: "기계학습 모델 개발 및 검증" in 22pt Bold #003380
-- Subtitle: "세부목표 1-3, 1-4" in 14pt #5A5A6E
+- Subtitle: "평가항목 #2 · 세부목표 1-3, 1-4" in 14pt #5A5A6E
 
-Bottom-left card (③):
+Bottom-left card (평가항목 #4):
 - [25%] badge
 - Title: "뇌영상-파운데이션 기계학습 모델" in 22pt Bold #003380
-- Subtitle: "세부목표 2-1, 2-2" in 14pt #5A5A6E
+- Subtitle: "평가항목 #4 · 세부목표 2-1, 2-2" in 14pt #5A5A6E
 
-Bottom-right card (④):
+Bottom-right card (평가항목 #5):
 - [25%] badge
 - Title: "다중 모달리티 통합 모델" in 22pt Bold #003380
-- Subtitle: "세부목표 2-1, 2-2" in 14pt #5A5A6E
+- Subtitle: "평가항목 #5 · 세부목표 2-3" in 14pt #5A5A6E
 
-Bottom annotation (small 12pt #5A5A6E, left-aligned): "※ 5개년 기준 6개 평가항목 중 3차년도 active 항목에 가중치 100% 재분배"
+Bottom annotation (small 12pt #5A5A6E, left-aligned): "※ 5개년 기준 6개 평가항목(#1·#2·#3·#4·#5·#6) 중 3차년도 active 4개(#1·#2·#4·#5)에 가중치 100% 재분배 · #3 신경과학 메커니즘(10%)은 4차년도 개시 예정"
 
 Bottom-right: "4 / 14" in 12pt #5A5A6E.
 

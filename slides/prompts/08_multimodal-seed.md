@@ -7,6 +7,10 @@
 - thinking_mode: high
 - language: ko
 
+## Rendering Rule
+- Text with pt size + color specifications → RENDER in image
+- Design instructions (layout, positioning) → DO NOT render, follow as structure guide
+
 ## MASTER THEME (snu_neurox)
 - Layout: upper SEED metric cards + lower Vision-Language model panel
 
@@ -16,15 +20,14 @@ Create a 16:9 horizontal Korean technical infographic on #FFFFFF background.
 
 Top-left header: "디코딩과제 3년차" in 14pt #003380.
 
-Title: "다중 모달리티 · 시맨틱 평가 — 평가항목 4 (25%)" in 32pt Bold #003380.
+Title: "다중 모달리티 · 시맨틱 평가 — 평가항목 #5 (25%)" in 32pt Bold #003380.
 Subtitle: "문태섭 Lab 중심 · SEED 평가 체계 + Vision-Language Model" in 22pt #584B9F (purple Lab color).
 
 Top-right: "100%" circular badge (48pt Bold #E69F00), label "달성도".
 
-Upper half (40% of slide height) — SEED block:
-
-Heading: "SEED — Semantic Evaluation for Visual Brain Decoding" in 22pt Bold #003380.
-Subheading: "22명 평가자 · 1K 이미지쌍 · 22K 인간 판단" in 18pt #0072B2.
+Upper half — SEED block:
+Heading 22pt Bold #003380: "SEED — Semantic Evaluation for Visual Brain Decoding"
+Subheading 18pt #0072B2: "22명 × 1K 이미지쌍 = 22K 인간 판단"
 
 3 horizontal cards of equal size with #EDF6FC fill and thin #56B4E9 (Cognitive Blue) outline:
 
@@ -34,7 +37,7 @@ Card 3: Label "SEED" in 22pt Bold #E69F00 (HIGHLIGHTED, accent color). Below: "3
 
 Small caption below cards: "평가 대상 SOTA: MindEye2, NeuroPictor, UniBrain, MindBridge, BrainGuard" in 14pt #5A5A6E.
 
-Lower half (40% of slide height) — Vision-Language + TabLeT block:
+Lower half (40% of slide height) — Vision-Language Model (시각-언어 모델) + TabLeT block:
 
 2 rounded rectangle panels side by side with SNU Blue (#003380) fill and white text:
 

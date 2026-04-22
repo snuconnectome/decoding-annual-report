@@ -30,12 +30,11 @@ Center 60%: 3 equal rounded rectangle cards horizontally spaced, #EDF6FC fill wi
 
 Card 1 (eye+ear icon): "외부환경" / "시각·청각·복합 자극"
 Card 2 (brain icon): "뇌의 능동적 추론" / "불완전 감각 → 예측 → 내부 표상 갱신"
-Card 3 (heart icon in #E69F00): "정서에 의한 맥락화" / "신체 반응 유도"
+Card 3 (heart icon in #0072B2): "정서에 의한 맥락화" / "신체 반응 유도"
 
 Between cards: straight horizontal arrows pointing right (no curves, no diagonals).
 
 Bottom caption centered 18pt #282945: "기존 디코딩은 수동적 지각에 국한 → 본 연구는 능동적 추론과 정서 맥락을 반영"
-Smaller italic 14pt #5A5A6E: "정서는 뇌 기능 이해의 가장 중요한 요인"
 
 Bottom-right: "2 / 14" 12pt #5A5A6E.
 

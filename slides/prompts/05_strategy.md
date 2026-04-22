@@ -7,6 +7,10 @@
 - thinking_mode: high
 - language: ko
 
+## Rendering Rule
+- Text with pt size + color specifications → RENDER in image
+- Design instructions (layout, positioning) → DO NOT render, follow as structure guide
+
 ## MASTER THEME (snu_neurox)
 - Layout: 5-step horizontal process flow
 
@@ -30,11 +34,11 @@ Card 04: "파운데이션 모델" / "개발 · 검증" / "04"
 
 Card 05: "모델 확장 · 활용" / "질환 예측 · 예술 전시" / "05" (this card gets #E69F00 accent outline instead of #0072B2 to mark the application stage)
 
-Bottom legend area (small 14pt #5A5A6E): 4 tiny color squares in a row with labels:
-- [green #11604B square] "이상아 Lab (인간 기억·정서)"
-- [orange #D55E00 square] "최형진 Lab (동물 신경)"
-- [blue #0072B2 square] "차지욱 Lab (ML foundation)"
-- [purple #584B9F square] "문태섭 Lab (Vision-Language · SEED)"
+Bottom legend area (small 14pt #5A5A6E): 4 tiny color squares in a row with labels. Use the HEX colors exactly as given, do NOT interpret color names.
+- [swatch #11604B] "이상아 Lab (인간 기억·정서)"
+- [swatch #D55E00] "최형진 Lab (동물 신경)"
+- [swatch #CC79A7] "차지욱 Lab (ML foundation)"
+- [swatch #584B9F] "문태섭 Lab (Vision-Language · SEED)"
 
 Bottom-right: "5 / 14" in 12pt #5A5A6E.
 

@@ -29,7 +29,7 @@ Center main area: one horizontal thin line in #003380 (the timeline axis) spanni
 
 - Marker 1 (leftmost): #0072B2 Neural Teal, label above "1차년도 (2023.07-12)"
 - Marker 2: #0072B2, label above "2차년도 (2024)"
-- Marker 3 (CENTER, HIGHLIGHTED): #E69F00 Signal Orange, LARGER (60×60 pixels), with a small "현재" badge in 14pt Bold #E69F00 floating above it. Label above: "3차년도 (2025)"
+- Marker 3 (CENTER, HIGHLIGHTED): #E69F00 Signal Orange, LARGER (60×60 pixels), with a small "현재" pill (#E69F00 fill, white text, 14pt Bold, 8px rounded) floating 8px above the marker. Label above: "3차년도 (2025)"
 - Marker 4: #0072B2, label above "4차년도 (2026)"
 - Marker 5 (rightmost): #0072B2, label above "5차년도 (2027)"
 

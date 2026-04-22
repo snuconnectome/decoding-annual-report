@@ -7,6 +7,10 @@
 - thinking_mode: high
 - language: ko
 
+## Rendering Rule
+- Text with pt size + color specifications → RENDER in image
+- Design instructions (layout, positioning) → DO NOT render, follow as structure guide
+
 ## MASTER THEME (snu_neurox)
 - Layout: 3 application cards top, Quantum ML band bottom
 
@@ -34,7 +38,7 @@ Card 2 — 정신질환 진단:
 Card 3 — 예술 전시:
 - Icon: flat frame / exhibition symbol in #0072B2
 - Title: "실험형 전시" in 22pt Bold #003380
-- Body: "예술 전시 실험 · 인간형 AI 전시 기획"
+- Body: "뇌-AI 상호작용 예술 실험 · 전시 기획 응용"
 
 Lower band (30% of slide height): a single horizontal banner with #56B4E9 (Cognitive Blue) light fill, showing "Quantum ML 확장" section.
 

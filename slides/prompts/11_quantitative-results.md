@@ -7,6 +7,10 @@
 - thinking_mode: high
 - language: ko
 
+## Rendering Rule
+- Text with pt size + color specifications → RENDER in image
+- Design instructions (layout, positioning) → DO NOT render, follow as structure guide
+
 ## MASTER THEME (snu_neurox)
 - Layout: 3 oversized hero metrics horizontally aligned
 
@@ -44,7 +48,7 @@ RIGHT metric:
 
 Vertical thin separators (very light #A0A0A0, 1px) between the 3 metric blocks.
 
-Bottom strip (small 14pt #5A5A6E, left-aligned): "평가항목 1·2·4·5 모두 달성도 100% · 평가항목 3 누락 이슈는 별도 공식화"
+Bottom strip (small 14pt #5A5A6E, left-aligned): "3차년도 active 평가항목 4개(#1·#2·#4·#5) 전수 달성도 100% · 평가항목 #3은 4차년도 개시 예정"
 
 Bottom-right: "11 / 14" in 12pt #5A5A6E.
 

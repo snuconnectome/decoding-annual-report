@@ -27,7 +27,7 @@
 Top-left: "디코딩과제 3년차" 14pt #003380.
 
 Upper 35%: large bold Korean title centered, 32pt Bold #003380:
-"동물-사람 멀티스케일 신경과학 파운데이션 모델 기반 뇌-외부환경 상호작용시의 정서에 의해 맥락화된 지각의 디코딩"
+"동물-사람 멀티스케일 신경과학 파운데이션 모델 기반 뇌-외부환경 상호작용 시 정서로 맥락화된 지각의 디코딩"
 
 Below in 22pt #0072B2 centered: "Affect-contextualized perception decoding with cross-species multiscale neuroscience foundation model"
 

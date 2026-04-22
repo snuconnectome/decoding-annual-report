@@ -7,6 +7,10 @@
 - thinking_mode: high
 - language: ko
 
+## Rendering Rule
+- Text with pt size + color specifications → RENDER in image
+- Design instructions (layout, positioning) → DO NOT render, follow as structure guide
+
 ## MASTER THEME (snu_neurox)
 - Layout: 5 direction cards horizontal + budget bar below
 
@@ -17,7 +21,7 @@ Create a 16:9 horizontal Korean forward-plan infographic on #FFFFFF background.
 Top-left header: "디코딩과제 3년차" in 14pt #003380.
 
 Title: "4차년도(2026) 연구개발계획" in 32pt Bold #003380.
-Subtitle: "예산 600,000천원 · 5개 핵심 방향" in 22pt #E69F00.
+Subtitle: "예산 600,000천원 (약 6억원) · 5개 핵심 방향" in 22pt #0072B2.
 
 Main area (55% of slide height): 5 numbered compact cards arranged horizontally with equal spacing. Each card has #EDF6FC fill, thin #0072B2 outline, small icon + number at top.
 
