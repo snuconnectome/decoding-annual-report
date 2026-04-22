@@ -1,0 +1,81 @@
+{
+  "generated": [],
+  "failed": [
+    {
+      "source": "slide_01_title.md",
+      "error": "Generation failed after retries",
+      "timestamp": "2026-04-23T00:57:34.083259"
+    },
+    {
+      "source": "slide_02_overview.md",
+      "error": "Generation failed after retries",
+      "timestamp": "2026-04-23T00:57:34.083658"
+    },
+    {
+      "source": "slide_03_roadmap.md",
+      "error": "Generation failed after retries",
+      "timestamp": "2026-04-23T00:57:34.093840"
+    },
+    {
+      "source": "slide_05_strategy.md",
+      "error": "Generation failed after retries",
+      "timestamp": "2026-04-23T00:57:49.477714"
+    },
+    {
+      "source": "slide_04_year3-goals.md",
+      "error": "Generation failed after retries",
+      "timestamp": "2026-04-23T00:57:49.485766"
+    },
+    {
+      "source": "slide_06_db-construction.md",
+      "error": "Generation failed after retries",
+      "timestamp": "2026-04-23T00:57:49.644158"
+    },
+    {
+      "source": "slide_08_multimodal-seed.md",
+      "error": "Generation failed after retries",
+      "timestamp": "2026-04-23T00:58:04.865374"
+    },
+    {
+      "source": "slide_07_ml-models.md",
+      "error": "Generation failed after retries",
+      "timestamp": "2026-04-23T00:58:04.866546"
+    },
+    {
+      "source": "slide_09_cross-species.md",
+      "error": "Generation failed after retries",
+      "timestamp": "2026-04-23T00:58:05.110345"
+    },
+    {
+      "source": "slide_11_quantitative-results.md",
+      "error": "Generation failed after retries",
+      "timestamp": "2026-04-23T00:58:20.224056"
+    },
+    {
+      "source": "slide_10_extensions-quantum.md",
+      "error": "Generation failed after retries",
+      "timestamp": "2026-04-23T00:58:20.226927"
+    },
+    {
+      "source": "slide_12_year4-plan.md",
+      "error": "Generation failed after retries",
+      "timestamp": "2026-04-23T00:58:20.543877"
+    },
+    {
+      "source": "slide_13_expected-impact.md",
+      "error": "Generation failed after retries",
+      "timestamp": "2026-04-23T00:58:35.614639"
+    },
+    {
+      "source": "slide_14_wrap-up.md",
+      "error": "Generation failed after retries",
+      "timestamp": "2026-04-23T00:58:35.680400"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-flash-image-preview",
+    "aspect_ratio": "16:9",
+    "completed": "2026-04-23T00:58:35.680772",
+    "elapsed_seconds": 77
+  }
+}

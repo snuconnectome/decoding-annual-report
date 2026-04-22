@@ -7,6 +7,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Phase 6 — 슬라이드 이미지 생성 완료 (2026-04-23)
+
+#### Initial attempt: Gemini nanobanana2
+- `GEMINI_API_KEY` 발견, `google-genai` SDK 설치
+- dry-run 14/14 PASS
+- **실제 생성 차단**: API key expired (400 INVALID_ARGUMENT)
+
+#### Autonomous Fallback: matplotlib renderer
+- `scripts/generate-slides-matplotlib.py` 작성 (~700 lines)
+- 14 per-slide renderer · snu_neurox 팔레트 · Apple SD Gothic Neo 한글
+- YAML 5파일 직접 참조 (data drift 0)
+
+#### Iterative visual QA (3 rounds)
+- Round 1 fixes: Slide 01 title spacing, Slide 11 hero overflow, Slide 14 card labels, 이모지 제거
+- Round 2 fixes: Slide 05 카드 · 폰트 축소, Slide 10 Quantum chips, Slide 12 합계 text
+- Round 3 fixes: Slide 02 카드 폭·폰트, Slide 08 VLM panel
+
+#### Deliverables
+- `slides/images/slide_01_title.png ~ 14_wrap-up.png` (14 PNG, 각 80-160KB)
+- `slides/build/presentation.pdf` (14 pages, 16:9, 1.6MB)
+- `docs/pdca/phase-6/` plan/do/check 완성
+
+#### Outcome
+Phase 6 완료. `slides/build/presentation.pdf` = 발표 가능 상태. Gemini 대체 경로가 재사용 가능한 반복 자산으로 확보됨.
+
 ### Phase 5 Review Loop — 3회 독립 리뷰 + 수정 루프 (2026-04-23)
 
 #### Added
