@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Phase 2 — 데이터 구조화 (YAML 레이어) (2026-04-22)
+
+#### Added
+- `data/project-meta.yaml` — 과제 메타·예산·기술분류 10종 (개인정보 redact)
+- `data/evaluation-criteria.yaml` — 6개 평가항목 × 5개년 목표 (가중치 합 100%)
+- `data/achievements.yaml` — 논문 17 + 학회참석 4 + 9개 핵심 기술 모델 메타
+- `data/metrics.yaml` — 3차년도 성과 4항목 + 달성도 97.5% + 평가항목 3 누락 플래그
+- `data/next-year-plan.yaml` — 4차년도 5 방향 · 전략 · 600,000천원 예산 · 활용방안
+- `docs/pdca/phase-2/` — plan.md, do.md, check.md
+
+#### Validated
+- 6/6 YAML `yaml.safe_load()` 통과
+- `redact-check.py data/` — 0 findings
+- 크로스 레퍼런스 일관성: 4차년도 예산 600,000 (3곳 일치), 평가항목 ID subset, 레퍼런스 count 21, 가중치 합 100%
+
+#### Decision
+- **Phase 3·4 (보고서 Markdown/PDF) skip**: 원본 제출본이 이미 공식 버전이므로 재작성 불필요. `Makefile`의 `make report` 타겟은 stub 유지하여 향후 필요 시 복원 가능.
+
 ### Phase 1 — PDF 원본 추출 및 구조 분석 (2026-04-22)
 
 #### Added

@@ -1,0 +1,150 @@
+_metadata:
+  file: data/project-meta.yaml
+  purpose: 과제 메타데이터 · 예산 · 기술분류 (공개 정보만 수록)
+  sourced_from:
+    - "source/original-3year-report.pdf p1-11 (표지·요약문)"
+    - "IRIS 국가R&D통합지원시스템 공개 정보"
+  generated_by: Phase 2 manual structuring
+  last_updated: 2026-04-22
+  redaction_status: |
+    공개용. 개인 식별정보(전화·연구자번호·법인번호·전자서명) 전부 제거.
+
+# ---------------------------------------------------------------------------
+project:
+  id: "RS-2023-00265406"
+  title_ko: "동물-사람 멀티스케일 신경과학 파운데이션 모델을 기반으로한 뇌-외부환경 상호작용시의 정서에 의해 맥락화된(contextualized) 지각의 디코딩"
+  title_en: "Affect-contextualized perception decoding with cross-species multiscale neuroscience foundation model"
+  keywords_ko: ["종간연구", "파운데이션 모델", "정서", "예측코딩"]
+  keywords_en: ["cross-species research", "foundation model", "affect"]
+
+agency:
+  central: "과학기술정보통신부"
+  managing: "한국연구재단"
+  announcement_number: "과학기술정보통신부 공고 제 2023-0410호"
+
+program:
+  main: "바이오·의료기술개발(R&D)"
+  sub: "뇌과학선도융합기술개발"
+
+principal_investigator:
+  name: "차지욱"
+  position: "부교수"
+  institution: "서울대학교"
+  institution_address_public: "서울특별시 관악구 관악로 1"
+
+# ---------------------------------------------------------------------------
+# 연구개발 단계
+research_phase:
+  type: "기초"
+  research_type: "연구개발"
+  tech_fee_collection: "징수"
+
+# ---------------------------------------------------------------------------
+# 기간 (전체 + 해당 연도)
+period:
+  overall:
+    start: "2023-07-01"
+    end: "2027-12-31"
+    months: 54
+  stage_0:
+    years: 5
+    start: "2023-07-01"
+    end: "2027-12-31"
+  by_year:
+    - year: 1
+      start: "2023-07-01"
+      end: "2023-12-31"
+      months: 6
+    - year: 2
+      start: "2024-01-01"
+      end: "2024-12-31"
+      months: 12
+    - year: 3
+      start: "2025-01-01"
+      end: "2025-12-31"
+      months: 12
+    - year: 4
+      start: "2026-01-01"
+      end: "2026-12-31"
+      months: 12
+    - year: 5
+      start: "2027-01-01"
+      end: "2027-12-31"
+      months: 12
+  current_year: 3
+  submission_date: "2025-12-08"
+
+# ---------------------------------------------------------------------------
+# 예산 (단위: 천원)
+budget:
+  currency_unit: "천원 (thousands of KRW)"
+  overall_total: 2407000
+  government_funding_only: true   # 기관부담·지방자치단체·기타 모두 0
+  by_year:
+    - year: 1
+      total: 300000
+    - year: 2
+      total: 453500
+    - year: 3
+      total: 453500
+    - year: 4
+      total: 600000
+    - year: 5
+      total: 600000
+
+# ---------------------------------------------------------------------------
+# 기술분류 (p1 기준, 10종)
+tech_classification:
+  - category: "국가과학기술표준분류"
+    items:
+      - {rank: 1, value: "뇌인지 기능매핑", percent: 60}
+      - {rank: 2, value: "시스템신경과학", percent: 40}
+  - category: "학술연구분야분류"
+    items:
+      - {rank: 1, value: "뇌과학", percent: 50}
+      - {rank: 2, value: "감성과학", percent: 30}
+      - {rank: 3, value: "인지과학", percent: 20}
+  - category: "과학기술분야분류"
+    items:
+      - {rank: 1, value: "인지신경과학", percent: 60}
+      - {rank: 2, value: "생물 및 생리심리학", percent: 40}
+  - category: "원천기술개발분야분류"
+    items:
+      - {rank: 1, value: "응용 소프트웨어 기술", percent: 60}
+      - {rank: 2, value: "기타", percent: 40}
+  - category: "6T관련기술코드"
+    items:
+      - {rank: 1, value: "뇌신경과학 연구", percent: 100}
+  - category: "기초연구_평가전문분야 (기초연구사업)"
+    items:
+      - {rank: 1, value: "인지과학", percent: 100}
+  - category: "국책연구_기획평가전문분야 (국책연구사업)"
+    items:
+      - {rank: 1, value: "뇌고위 기능 (시스템, 행동, 감각, 지각, 주의, 인지, 운동, 정서, 학습, 기억, 언어, 사회 인지)", percent: 100}
+  - category: "국가과학기술표준분류_적용분야분류"
+    items:
+      - {rank: 1, value: "건강", percent: 60}
+      - {rank: 2, value: "지식의 진보 (비목적 연구)", percent: 40}
+  - category: "국가전략기술 분류"
+    items:
+      - {rank: 1, value: "디지털헬스 데이터 분석·활용", percent: 100}
+  - category: "기초연구_평가전문분야 (RB분류)"
+    items:
+      - {rank: 1, value: "인지과학", percent: 100}
+
+# ---------------------------------------------------------------------------
+# 연차별 예산 (4차년도 상세)
+year4_budget_detail:
+  unit: "천원"
+  direct:
+    personnel: 64896
+    student_personnel: 189520
+    equipment_facility: 32000
+    research_material: 35901
+    research_activity: 95081
+    research_allowance: 51352
+    subtotal: 468750
+  indirect:
+    safety_management: 131250
+  total: 600000
+  unpaid_personnel: 56160

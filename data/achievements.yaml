@@ -1,0 +1,147 @@
+_metadata:
+  file: data/achievements.yaml
+  purpose: 3차년도 레퍼런스 증빙 — 논문 17 + 학회참석 4 = 21건
+  sourced_from:
+    - "source/original-3year-report.pdf p97-98"
+    - "source/extracted-text/tables/097_t01.csv"
+    - "source/extracted-text/tables/098_t01.csv"
+  generated_by: Phase 2 manual structuring
+  last_updated: 2026-04-22
+
+summary:
+  total: 21
+  papers: 17
+  conference_attendances: 4
+
+# ---------------------------------------------------------------------------
+# 논문 (17편)
+papers:
+  - id: 1
+    type: 논문
+    title: "Polygenic scores for psychiatric traits mediate the impact of multigenerational history for depression on offspring psychopathology"
+
+  - id: 2
+    type: 논문
+    title: "Awe is characterized as an ambivalent affect in the human behavior and cortex"
+
+  - id: 3
+    type: 논문
+    title: "DIVER-0 : A Fully Channel Equivariant EEG Foundation Model"
+
+  - id: 4
+    type: 논문
+    title: "Computed Tomography-Based Radiomics Diagnostic Model for Fat-Poor Small Renal Tumor Subtypes"
+
+  - id: 5
+    type: 논문
+    title: "Polygenic Risk-Informed White Matter Integrity Improves Deep Learning-Based Prediction of Youth Depression"
+
+  - id: 6
+    type: 논문
+    title: "Spatiotemporal Learning of Brain Dynamics from fMRI Using Frequency-Specific Multi-Band Attention for Cognitive and Psychiatric Applications"
+    note: "MBBN"
+
+  - id: 7
+    type: 논문
+    title: "CausalMamba: Scalable Conditional State Space Models for Neural Causal Inference"
+
+  - id: 8
+    type: 논문
+    title: "Decoding Dynamic Visual Experience from Calcium Imaging via Cell-Pattern-Aware SSL"
+    note: "POYO-SSL 관련"
+
+  - id: 9
+    type: 논문
+    title: "Revisiting Your Memory: Reconstruction of Affect-Contextualized Memory via EEG-guided Audiovisual Generation"
+
+  - id: 10
+    type: 논문
+    title: "A more comprehensive and reliable analysis of individual differences with generalized random forest for high-dimensional data: validation and guidelines"
+
+  - id: 11
+    type: 논문
+    title: "It's-A-Me, Quantum Mario: Scalable Quantum Reinforcement Learning with Multi-Chip Ensembles"
+
+  - id: 12
+    type: 논문
+    title: "Resting-state fMRI Analysis using Quantum Time-series Transformer"
+
+  - id: 13
+    type: 논문
+    title: "Over the Quantum Rainbow: Explaining Hybrid Quantum Reinforcement Learning"
+
+  - id: 14
+    type: 논문
+    title: "Individual differences in effects of stressful life events on childhood ADHD: genetic, neural, and familial contributions"
+
+  - id: 15
+    type: 논문
+    title: "Polygenic architecture of brain structure and function, behaviors, and psychopathologies in children"
+
+  - id: 16
+    type: 논문
+    title: "Sex-Specific Effects of Anxiety on Cognition and Activity-Dependent Neural Networks: Insights From (Female) Mice and (Wo)men"
+
+  - id: 17
+    type: 논문
+    title: "Predicting task-related brain activity from resting-state brain dynamics with fMRI Transformer"
+
+# ---------------------------------------------------------------------------
+# 학회참석 (4건)
+conferences:
+  - id: 18
+    type: 학회참석
+    title: "Multi-label Aware Contrastive Learning for Better Psychiatric Diagnosis using T1 Structural MRI"
+
+  - id: 19
+    type: 학회참석
+    title: "SwiFT V2: Towards Large-scale Foundation Model for Functional MRI"
+
+  - id: 20
+    type: 학회참석
+    title: "Enhancing OCD classification with Transformer-based deep learning on resting-state fMRI: insights from the ENIGMA-OCD cohort and UK Biobank pretraining"
+
+  - id: 21
+    type: 학회참석
+    title: "Trait depression predicts negatively biased encoding and retrieval of ambivalent movie: interoceptive and lexical analysis"
+
+# ---------------------------------------------------------------------------
+# 핵심 기술 성과 (본문 p87-88에서 언급된 주요 모델·알고리즘)
+key_technical_models:
+  - name: "SwiFT (SwiFT-IO)"
+    category: "fMRI foundation model"
+    performance: "R² = 0.96 (정서·언어·인지 예측에서 SOTA)"
+    related_papers: [19]  # SwiFT V2
+
+  - name: "DIVER-0"
+    category: "EEG foundation model (Fully Channel Equivariant)"
+    performance: "ICML 심사 중 (camera-ready 상태)"
+    related_papers: [3]
+
+  - name: "POYO-SSL"
+    category: "칼슘 이미징 디코딩 SSL"
+    performance: "+12~13% 성능 향상"
+    related_papers: [8]
+
+  - name: "MBBN"
+    category: "Frequency-Specific Multi-Band Attention for fMRI"
+    performance: "SOTA 달성"
+    related_papers: [6]
+
+  - name: "TabLeT"
+    category: "효율적 토크나이징 및 Transformer (장기 시계열 뇌영상)"
+    note: "새롭게 제시된 아키텍처. 종간 신경표상 연결 기반."
+
+  - name: "NeuroMamba / CausalMamba"
+    category: "Scalable Conditional State Space Models for Neural Inference"
+    related_papers: [7]
+
+  - name: "DIVER-1"
+    category: "EEG foundation model (차세대 DIVER)"
+    note: "DIVER-0 후속. 양자 시공간 학습 포함."
+
+  - name: "Language-Brain Alignment"
+    performance: "+14.4% 성능 향상"
+
+  - name: "Vision-Language Model (뇌영상 기반)"
+    category: "대규모 sMRI·DTI·fMRI 텍스트 정렬 semantic alignment"
