@@ -48,7 +48,7 @@ Bottom-right card (평가항목 #5):
 
 Bottom annotation (small 12pt #5A5A6E, left-aligned): "※ 5개년 기준 6개 평가항목(#1·#2·#3·#4·#5·#6) 중 3차년도 active 4개(#1·#2·#4·#5)에 가중치 100% 재분배 · #3 신경과학 메커니즘(10%)은 4차년도 개시 예정"
 
-Bottom-right: "4 / 14" in 12pt #5A5A6E.
+Bottom-right: "4 / 15" in 12pt #5A5A6E.
 
 ## Style Rules
 - Equal-sized cards in 2×2 grid

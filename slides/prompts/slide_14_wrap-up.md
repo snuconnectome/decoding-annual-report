@@ -45,7 +45,7 @@ Bottom area (lower 25% of slide height):
 - Below: "질의응답 (Q&A)" in 28pt Bold #E69F00 centered
 - Very small caption at bottom 14pt #5A5A6E: "서울대학교 · snu.ac.kr"
 
-Bottom-right: "14 / 14" in 12pt #5A5A6E.
+Bottom-right: "15 / 15" in 12pt #5A5A6E.
 
 ## Style Rules
 - 3 summary cards matching the storyboard takeaways

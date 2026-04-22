@@ -1,11 +1,12 @@
 # 디코딩과제 3년차 발표 슬라이드 스토리보드
 
-> 과기부/연구재단 평가단용 14장 인포그래픽 슬라이드 발표 설계
+> 과기부/연구재단 평가단용 15장 인포그래픽 슬라이드 발표 설계
 >
 > **테마**: `snu_neurox` (SNU Blue + Okabe-Ito 색맹안전 팔레트, 16:9)
-> **총 장수**: 14장
-> **예상 발표 시간**: 15-20분 (장당 1-1.5분)
+> **총 장수**: 15장 (차지욱 Lab 연구 분량으로 S7을 S7A·S7B로 분할)
+> **예상 발표 시간**: 18–22분 (장당 1–1.5분)
 > **톤**: 공식·정량 중심 (평가단 대상)
+> **원천 자료**: `report/03_lab-research-detail.md` (4 Lab × granular 실험 기술)
 
 ---
 
@@ -182,75 +183,144 @@
 **핵심 메시지**: 이상아 Lab이 이끈 2개 인간 실험으로 정서 맥락화 지각 디코딩 DB 핵심 구축 완료 · 달성도 100%
 
 **레이아웃**:
-- 상단: "데이터베이스 구축 — 평가항목 #1 (25%) · 이상아 Lab 중심" + 우측에 "100%" 킬러 수치 배지
-- 중앙 상단 좁은 띠: "동물 파트 (최형진 Lab): 칼슘 이미징 기반 자연환경 동물 지각·정서 DB" (1줄, 축약)
-- 중앙 메인 영역: 2개 실험 패널 수평 분할
-  - **실험 1 [좌]: fMRI/EEG 다중양식 감정 연합 검증**
-    - 설계: "동일 공간 맥락 내 두 사건의 감정적 연합 표상·디코딩"
-    - fMRI 결과: 편도체·전두두정 (지각) / DMN·PCC·precuneus (인출)
-    - EEG 바이오마커: Posterior θ (맥락 연합 마커) · Frontal θ (맥락 갱신 마커)
-  - **실험 2 [우]: 가상 공간 탐험 EEG — 랜드마크·공간기억**
-    - 설계: "수동적 가상공간 탐험 영상 시청 + EEG 재활성화 분석"
-    - 결과 1: 회전지점(turn) sequential reactivation (기억 인출 시 시간 순서)
-    - 결과 2: 원거리 랜드마크 재활성화가 공간기억 성공과 유의 연관
-    - 함의: "정서적 가치 정보가 맥락화 디코딩의 핵심 변인"
-- 하단: 증빙 요약 (기관 문구) — "인간 핵심 데이터베이스 및 분석 프로토콜 구축 완료"
+- 상단: "데이터베이스 구축 — 평가항목 #1 (25%)" + 부제 "이상아 Lab (사람) · 최형진 Lab (동물) 공동 수행 · 달성도 100%"
+- 상단 우측: "**100%**" 킬러 수치 배지 (Signal Orange)
+- 중앙 상단 띠 — 최형진 Lab **animal block** (확장):
+  - 타이틀: "동물 (최형진 Lab) — 3D 골격 DB + VTA-NAc two-site 광유전학"
+  - 내용 좌: "자유 행동 설치류 · DeepLabCut 멀티뷰 3D 포즈 (코·귀·척추·앞/뒷발·꼬리) · 그루밍·보행·rearing·drinking"
+  - 내용 우: "VTA-NAc 도파민 축삭 광유전학 (DAT-cre · AAV5-ChrimsonR + AAV9-GRAB_DA1h · 594 nm · 5/10/20 Hz · fiber photometry)"
+  - 색 bar: LAB_VERMIL (#D55E00) 좌측
+- 중앙 메인 영역: 이상아 Lab **human block** 2개 패널 수평:
+  - **실험 1 [좌]: MixedEmo fMRI + EEG (n=92)**
+    - 설계: "Scene 80종 × IAPS 감정자극 160종 · 5조건 (중립·부정·긍정·긍정-부정·부정-긍정)"
+    - fMRI: 편도체·전두두정 (지각) / DMN·PCC·precuneus (인출) / ACC 복측 vs 배측 해리 (**p=0.010**)
+    - 개인차: STAI-X1 불안 → 인출 편향 (**p=0.002, 0.003**)
+    - EEG (32ch · 2048Hz): **Posterior θ** (두정엽·후두엽, 감정 처리 우선) · **Frontal θ** (감정 충돌)
+  - **실험 2 [우]: 가상공간 탐험 EEG + 해마 OCAT**
+    - 설계: "4가지 랜드마크 (근접·원격·혼합·없음) · 1분 VR 비디오 + sequential reactivation 분석"
+    - Sequential reactivation: **reactivation bias** (시간에 따른 증가 = 성공 재활성)
+    - 디코딩 정확도: **10-15%** (chance 4%) · *Imaging Neuroscience* (Lim et al. 2025)
+    - 해마 OCAT: **CA23DG · CA1**에서 물체-환경 패턴 유사성 (맥락 범주화)
+    - 청소년: CA23DG ↔ **OFC** 연결 발달 · 정서적 학대 집단 결여
+- 하단: 증빙 "인간 n=92 fMRI·EEG DB + 동물 3D 골격·VTA-NAc two-site 프로토콜 구축 완료"
 
 **시각 요소**:
-- 좌우 2개 박스 (둘 다 SNU Ice #EDF6FC 배경, 연한 Neural Teal #0072B2 테두리)
-- 각 박스 상단에 실험 번호 배지 (Signal Orange)
-- 아이콘: 좌 (뇌 + 파동 = fMRI/EEG), 우 (공간 탐험 시점)
+- 상단 animal block: LAB_VERMIL (#D55E00) 좌측 색 bar, 카드 배경 BG_PEACH (#FDECE2) 연하게
+- 하단 human block 2개 박스: SNU Ice #EDF6FC, LAB_TEAL (#11604B) 세로 bar (이상아 Lab)
+- 각 실험 박스 상단 번호 배지 (Signal Orange)
 - 우상단 "100%" 배지 (32pt Bold Signal Orange)
-- 얇은 상단 띠에 최형진 Lab 언급 (밝은 녹색 #11604B 세로 bar로 팀 구분 표기)
+- 아이콘: animal (쥐 실루엣 + 광섬유 표기), 실험 1 (뇌 + 파동), 실험 2 (공간 탐험 시점)
 
-**구체 내용** (from `data/metrics.yaml criterion_id=1` + Google Slides 이상아 Lab 정리):
-- 실험 1 키워드: fMRI/EEG 다중양식, amygdala, DMN, PCC, precuneus, posterior theta, frontal theta
-- 실험 2 키워드: 가상공간 탐험, sequential reactivation, 랜드마크, 공간기억 재활성화
-- 핵심 문장 (하단): "정서 맥락화 기반 지각 디코딩 모델 개발을 위한 핵심 데이터베이스와 분석 프로토콜을 구축"
+**구체 내용** (from `report/03_lab-research-detail.md` §1 이상아 + §2 최형진):
+- **최형진 Lab 핵심 수치**: 자유 행동 멀티뷰, DAT-cre, ChrimsonR-tdTomato, GRAB_DA1h, 594 nm, fiber photometry
+- **이상아 Lab 실험 1**: amygdala · DMN · PCC · precuneus · ACC 복측/배측 해리 p=0.010 · STAI-X1 p=0.002, 0.003 · Posterior θ · Frontal θ
+- **이상아 Lab 실험 2**: Lim et al. 2025 *Imaging Neuroscience* · reactivation bias · CA23DG · CA1 · CA23DG ↔ OFC 청소년 발달
 
 **데이터 소스**:
+- `report/03_lab-research-detail.md` §1 (이상아 Lab) + §2 (최형진 Lab)
 - `data/metrics.yaml year3_performance[0]` (criterion_id=1)
-- 이상아 Lab Google Slides 내용 (사용자 제공, 2026-04-22)
-- `source/extracted-text/pages/011.txt` (본문 서사)
+- 이상아 Lab Google Slides (사용자 제공, 2026-04-22)
+- 최형진 Lab BK21 자체평가 (Google Sheet `1lLcfs...`, 2025-10-16)
+- 공식 제출본 Google Docs `1TwvN0...` (섹션 세부연구 1·2·5)
 
 **주의**:
-- 이상아 Lab 대표 논문(Lim 2025/8 *Imaging Neuroscience*, Kim 2025/11 *iScience*, Lee 2025/11 *Neuropsychologia*, Koo 2026/1 *Scientific Reports*)은 현재 공식 제출본 `achievements.yaml` 17편 목록에 **미포함** 상태. 사용자 결정에 따라 **제출본 그대로 유지**. 슬라이드에서도 특정 논문 명시는 하지 않고 실험·결과 중심 narrative로 전달.
-- 4팀 중 최형진·차지욱·문태섭 Lab 정리가 추후 도착 시: Slide 7·8·9·10을 유사 구조로 Lab 특화 업데이트 예정.
+- 이상아 Lab 대표 논문 4편 (Lim 2025/8 *Imaging Neuroscience*, Kim 2025/11 *iScience*, Lee 2025/11 *Neuropsychologia*, Koo 2026/1 *Scientific Reports*)은 공식 `achievements.yaml` 17편 목록에 **미포함**. 사용자 결정: 제출본 그대로 유지. 슬라이드에서는 실험·결과 중심 narrative.
+- 최형진 Lab의 CeA-Glp1R · NAc-NPY · LH CaMKIIα+ · AgRP 회로는 본문 미기재지만 BK21 자료에 풍부. 평가단 질의 시 구두 보완 가능 (전체 내용은 `report/03_lab-research-detail.md` §2.4).
 
 **Negative**: 상세 데이터 표 금지, 사진사실적 뇌 이미지 금지, 3단 이상 중첩 구조 금지
 
 ---
 
-## Slide 7 — 기계학습 모델 성과 (SwiFT, DIVER-1, POYO-SSL, MBBN) · 차지욱 Lab 중심
+## Slide 7A — 차지욱 Lab ① fMRI 파운데이션 모델 (평가항목 #2·#4)
 
-**유형**: 데이터 (막대 차트 + 모델 카드)
+**유형**: 데이터 + 구조 (4 모델 카드 + hero scaling card)
 
-**핵심 메시지**: 4개 모델이 각각 SOTA 성능 달성
+**핵심 메시지**: UKB·HCP·ABCD 5만명 기반 8.8B 스케일링 → sequence decoding (R²=0.96) · 주파수 분리 (ADHD/ASD SOTA) · Mamba 효율화 (HCP 94.9%)
 
 **레이아웃**:
-- 상단: "기계학습 모델 — 평가항목 #2 (25%) 달성도 100%"
-- 중앙: 4개 모델 카드 (2x2 그리드) + 각각의 성능 수치
-  - SwiFT-IO: R² = 0.96
-  - POYO-SSL: +12~13% 성능 향상
-  - 언어-뇌영상: +14.4%
-  - MBBN: SOTA 달성
-- 하단 주석: 증빙 — 국제 발표 1건, 리뷰 중 2편, 출판 예정 1편
-
-**구체 내용**:
-- 각 카드: 모델명 (Bold, SNU Blue 22pt) + 성능 수치 (Signal Orange 32pt Bold) + 간단 설명 1줄
-- SwiFT-IO: "fMRI 파운데이션 모델, R² = 0.96"
-- POYO-SSL: "칼슘 이미징 SSL, +12~13%"
-- 언어-뇌영상: "Language-Brain Alignment, +14.4%"
-- MBBN: "Multi-Band Attention, SOTA"
+- 상단 타이틀: "차지욱 Lab ① fMRI Foundation Models" + 부제 "평가항목 #2·#4 · 달성도 100%"
+- 우상단 Hero 배지: "**8.8B params · 5만명**" (SwiFT 스케일링)
+- 중앙 2×2 grid + 우측 side column:
+  - **Top-L [SwiFT]**: "8.8B params · muP · UKB+HCP+ABCD 5만명 · Power-law"
+    - 부가: "BrainLM·Brain-JEPA 상회 · HCP 성별 +7.6%"
+  - **Top-R [SwiFT-IO]**: "R² = 0.96 · HBN 677명 movie fMRI · Perceiver IO"
+    - 부가: "Sequence-to-Sequence 정서가 디코딩 · CCN 2025"
+  - **Bot-L [MBBN]**: "Frequency-Specific Multi-Band Attention"
+    - 부가: "ADHD: 고주파 실행기능·저주파 운동지각·초저주파 내장감각 · *Communications Biology* 2026.1"
+  - **Bot-R [NeuroMamba]**: "HCP 성별 94.9% · FLOPs −46.5%"
+    - 부가: "Mamba2 + NeRF 위치 인코딩 · SwiFT 92.9% 상회"
+- 하단 얇은 띠: "**TabLeT** (2D DCAE · UKB 8,178 + HCP 1,061 + ADHD-200 533 · CVPR 심사) · **Latent Diffusion Transformer** (3D VQ-GAN · 4D fMRI 생성 세계 최초)"
 
 **시각 요소**:
-- 4개 카드 (SNU Ice 배경, 둥근 모서리)
-- 각 카드 킬러 메트릭이 최상단 강조
-- 카드 좌상단에 작은 모델 카테고리 아이콘
+- 4 카드 동일 크기 (SNU Ice #EDF6FC 배경, Neural Teal 테두리)
+- Hero 배지: Signal Orange circle, 32pt Bold
+- 모델명: 22pt Bold SNU Blue; hero metric: 28pt Bold Signal Orange; 본문: 13pt TEXT_DARK
+- 차지욱 Lab color bar: 좌측 얇은 Okabe-Ito pink (#CC79A7) 세로줄
 
-**데이터 소스**: `data/metrics.yaml year3_performance[1]` (criterion_id=2), `data/achievements.key_technical_models`
+**구체 내용 (numeric anchors)**:
+- SwiFT: 37M → 118M → 1.2B → 8.8B 파라미터 scaling
+- 알츠하이머병 전환 예측 · 통증 상태 분류 · 항우울제 치료 반응 SOTA
+- HBN movie fMRI 12분 × 677명
+- MBBN ASD 고주파 언어·주의·작업기억·사회 인지
+- NeuroMamba NeuroSTORM 93.3% 상회
 
-**Negative**: 라인 차트 과밀 금지 (4개 모델이 서로 다른 축), 3D 막대 금지
+**데이터 소스**:
+- `report/03_lab-research-detail.md` §3.1 (fMRI Foundation Models)
+- `data/metrics.yaml year3_performance[1,2]` (criterion 2·4)
+- 공식 제출본 SwiFT-IO 벤치마크 표 (MSE 0.125 · MAE 0.137)
+
+**Negative**: 5개 이상 카드 금지 (2×2 기준), 3D 뇌 렌더링·사진사실적 이미지 금지, 막대그래프 과밀 금지
+
+**주의**: MBBN의 ADHD 주파수별 바이오마커는 평가단 질의 대비 핵심 포인트. 구두 발표 시 강조.
+
+---
+
+## Slide 7B — 차지욱 Lab ② EEG/iEEG Foundation + 동물·임상·생성 응용 (평가항목 #2·#4)
+
+**유형**: 데이터 + 나열 (Hero scaling + 3 라인)
+
+**핵심 메시지**: DIVER-1이 ephys 최초 정량적 scaling law 확립 (5.3k iEEG + 54k EEG hrs) · Language-Brain +14.4% · POYO-SSL +12~13% · RYM F1=0.9 등 멀티도메인 확장
+
+**레이아웃**:
+- 상단 타이틀: "차지욱 Lab ② EEG/iEEG + 동물·임상 응용" + 부제 "ephys 최초 Scaling Law · Multi-Modal Generative"
+- 우상단 Hero 2개 배지 (세로 스택):
+  - "**5.3k iEEG**" (17.7k명 · 1.6M 채널-시간)
+  - "**54k EEG hrs**" (FACED · PhysioNet-MI · MentalArithmetic)
+- 중앙 3개 수평 행:
+  - **Row 1 — DIVER-1**: "Any-Variate Attention · STCPE · Multi-Domain Reconstruction"
+    - 킬러: "13M 파라미터로 BrainBERT 43M · PopT 63M 능가 (Neuroprobe 15 과제)"
+    - 부가: "**Data-constrained Scaling Law** 최초 정량 · epochs > model size"
+  - **Row 2 — Cross-Modal Alignment**:
+    - Language-Brain Alignment: "**+14.4%** (Antonello et al. 상회) · Convergence-Divergence-Zone Theory"
+    - POYO-SSL: "**+12~13%** · SSIM 0.593 · Drifting Gratings 55.5% · 1.98× 데이터 효율 (Allen Brain Observatory)"
+  - **Row 3 — 임상·생성 응용**:
+    - RYM (EEG → Stable Diffusion · MusicGen): "F1=0.9 · 56% 선호도 향상"
+    - CEBRA 경외 (*Communications Psychology* 2025) + 내수용감각 ECG-EEG (IS-RSA · Claude 3.5 Sonnet)
+    - Polygenic-informed 임상: 우울증·ADHD·아동 polygenic architecture (논문 #1·#5·#14·#15)
+- 하단 얇은 띠: "DIVER 3-Phase 전략 — Foundation (Pre-Train) → Alignment (iEEG-Video-Speech Trimodal) → Personalization (closed-loop)"
+
+**시각 요소**:
+- Hero 2 배지: 세로 stack, Signal Orange
+- Row 라벨: 좌측 22pt Bold SNU Blue 번호 마커 ①②③
+- DIVER-1 행은 더 큰 영역 (핵심 임팩트)
+- 차지욱 Lab 좌측 색 bar 유지 (Okabe-Ito pink)
+
+**구체 내용 (numeric anchors)**:
+- DIVER-1: ICLR 2026 심사 중, 1e20 FLOPs (GPT-1 × 2배, 이전 SOTA × 77배)
+- DIVER-2 로드맵: 50k hrs iEEG 확장 (10× scale-up)
+- POYO-SSL: ICLR 2026 심사 중
+- Language-Brain: openreview.net forum id hgBVVAJ1ym
+- RYM 9명 2세션 · r=0.265 p<.012
+- 협력 PI: Jay-Yoon Lee · Chun Kee Chung · Uri Hasson · Shinjae Yoo (SNU + Brookhaven)
+
+**데이터 소스**:
+- `report/03_lab-research-detail.md` §3.2 (EEG/iEEG + Clinical)
+- 차지욱 Lab ephys FM 슬라이드 (Google Slides `1LTc1e...`)
+- `data/achievements.yaml` key_technical_models
+
+**Negative**: 대각선 화살표 금지, 3단 이상 중첩 구조 금지, Quantum 관련 내용은 Slide 10에 배치 (중복 금지)
+
+**주의**: DIVER-1의 "First Quantified Scaling Laws for Ephys"는 ephys FM 슬라이드의 핵심 Novelty — 구두 강조 포인트. "epochs > params" 메시지는 LLM Kaplan Scaling Law와 명시적 대비.
 
 ---
 
@@ -299,32 +369,48 @@
 
 ---
 
-## Slide 9 — 동물-사람 종간 파운데이션 (평가항목 4)
+## Slide 9 — 동물-사람 종간 파운데이션 · 편도체 공동연구 (평가항목 #4)
 
-**유형**: 비교 (Animal vs Human + 통합 하단)
+**유형**: 비교 · 통합 (Animal × Human + 공동연구 하이라이트)
 
-**핵심 메시지**: sMRI·fMRI·EEG·iEEG 멀티스케일 파운데이션 모델 5개 세부 연구로 종간 모델 기반 확립
+**핵심 메시지**: 최형진·차지욱 Lab **편도체 표정-뉴런 정서 디코딩 공동연구**로 종간 신경 표상 연결 입증. sMRI·fMRI·EEG·iEEG 파운데이션 모델로 공통 표현 학습 기반 확보.
 
 **레이아웃**:
-- 상단: "뇌영상-파운데이션 모델 — 평가항목 #4 (25%) 달성도 100%"
+- 상단: "동물-사람 종간 파운데이션 — 평가항목 #4 · 달성도 100%"
+- 상단 highlight 박스 (**신규**): "**편도체 개별신경 × 표정 기반 정서 디코딩** (최형진·차지욱 공동, 2023.10–2025.02)"
+  - 좌: "설치류 표정 (안구·입 주위 근육) + 개별 뉴런 앙상블 활동"
+  - 우: "편도체 subpopulation이 공포·혐오 카테고리 구별 · negative valence encoding"
+  - 발표: "2024.01 iSRC 동계 성과보고회"
 - 중앙 좌우 분할:
-  - 좌 (Animal): 대규모 행동·신경 데이터 → 사전학습 → 전이학습 디코딩
-  - 우 (Human): 대규모 다중 모달리티 → 사전학습 → 전이학습 디코딩
-- 하단 통합 박스: "공통 표현 학습 기반 확보 → 종간 파운데이션 모델 토대"
-- 킬러 수치 (Signal Orange): "5개 세부 연구"
-
-**구체 내용**:
-- 모델 라벨: SwiFT, DIVER-1, NeuroMamba (CausalMamba), TabLeT
-- 포커스: "구조·기능·전기생리 신호의 공통 표현 학습 기반 마련"
-- 증빙: 국제 발표 2건, 투고/리뷰 중 2편, 기술개발 1건
+  - **좌 (Animal 표현 학습)**: 
+    - "POYO-SSL (Allen Brain Observatory) · Cell-Pattern-Aware SSL · +12~13%"
+    - "Skip-Connection U-Net 디코더 · SSIM 0.593 · Drifting Gratings 55.5%"
+  - **우 (Human 표현 학습)**:
+    - "SwiFT (UKB+HCP+ABCD 5만명 · 8.8B params) · Power-law"
+    - "DIVER-1 (5.3k iEEG + 54k EEG hrs · 17.7k 피험자) · Data-constrained Scaling Law"
+- 하단 통합 박스: "**공통 표현 학습**: 구조 (sMRI) · 기능 (fMRI) · 전기생리 (iEEG/EEG) · 행동 (표정·video) 신호의 **Trimodal Alignment** → 종간 파운데이션 모델 핵심 토대"
+- 킬러 수치 배지 (우상단): "**5개 세부 연구**" (Signal Orange)
 
 **시각 요소**:
-- 좌우 2개 박스 + 하단 가로 연결 박스 (종간 통합)
-- 모델명은 박스 안에 작은 칩(chip) 형태로 나열
+- 상단 공동연구 박스: LAB_VERMIL (최형진) + PALETTE_PINK (차지욱) 2색 세로 bar
+- 좌우 박스: 각 Lab 색 코딩
+- 하단 통합: SNU Blue 채우기 (강조)
+- 모델명 chip (작은 rounded rectangle, 18pt)
 
-**데이터 소스**: `data/metrics.yaml year3_performance[2]` (criterion_id=4), `data/achievements`
+**구체 내용** (from `report/03_lab-research-detail.md` §2.3 + §3.1/§3.2):
+- 편도체 공동연구 학생: 김유빈, 서정우
+- POYO-SSL 분류 뉴런: SST · VIP · PVALB · NTSR1 (왜도·첨도 기준)
+- DIVER 3-Phase: Foundation (unlabeled) → Alignment (paired iEEG-Video) → Personalization
+- 증빙: 국제 발표 2건, 투고/리뷰 중 2편, 기술개발 1건
 
-**Negative**: 중첩 3단 이상 계층 금지, 대각선 화살표 금지
+**데이터 소스**: 
+- `data/metrics.yaml year3_performance[2]` (criterion_id=4)
+- 최형진 Lab BK21 자체평가 (공동연구 기술)
+- 차지욱 Lab ephys FM 슬라이드 (DIVER 3-Phase)
+
+**Negative**: 대각선 화살표 금지, Quantum 내용 금지 (S10으로 이관), 중첩 3단 계층 금지
+
+**주의**: 편도체 공동연구는 본 과제의 "종간 통합" narrative의 핵심 증거. 구두 발표 강조.
 
 ---
 
@@ -455,45 +541,62 @@
 
 ---
 
-## 일관성 체크리스트 (14장 전체)
+## 일관성 체크리스트 (15장 전체)
 
 - [ ] 모든 슬라이드 snu_neurox 테마 준수
-- [ ] 모든 수치 `data/*.yaml` 또는 `source/` 추적 가능
+- [ ] 모든 수치 `data/*.yaml` 또는 `report/03_lab-research-detail.md` 추적 가능
 - [ ] 97.5% 수치는 Slide 4, 11, 14 3곳에 일관 표기
 - [ ] 논문 17편·학회 4건은 Slide 11, 14에 동일 표기
 - [ ] 600,000천원은 Slide 3, 12에 일관 표기
 - [ ] 평가항목 3 누락 이슈는 Slide 4 하단 주석으로 공식화
-- [ ] 페이지 번호: 1/14 ~ 14/14 형식 우하단
+- [ ] 페이지 번호: 1/15 ~ 15/15 형식 우하단 (S7A=7/15, S7B=8/15, S8=9/15 ... S14=15/15)
 - [ ] 제목 폰트: 32pt Bold SNU Blue (일관)
 - [ ] 킬러 메트릭: 32pt+ Bold Signal Orange (일관)
 - [ ] 본문: 18pt #282945 (일관)
+- [ ] 차지욱 Lab (S7A·S7B): 좌측 Okabe-Ito pink #CC79A7 세로 bar
+- [ ] 이상아 Lab (S6 human): 좌측 #11604B teal bar
+- [ ] 최형진 Lab (S6 animal): 좌측 #D55E00 vermillion bar
+- [ ] 문태섭 Lab (S8): 좌측 #584B9F purple bar
+- [ ] S7A·S7B 수치 정합: SwiFT 8.8B · DIVER-1 5.3k+54k · R²=0.96 · +14.4% · +12~13%
 
-## 팀별 기여 매핑 (2026-04-23 기준)
+## 팀별 기여 매핑 (2026-04-23 updated)
 
-본 과제는 4개 연구팀의 공동 수행으로 구성되며, 각 팀의 전문성을 기반으로 슬라이드가 lab-specific 내용을 반영합니다. 현재까지 수집된 Lab별 정리 자료:
+본 과제는 4개 연구팀 공동 수행. Phase 7 (granularity 보강) 후 각 Lab의 granular 내용이 slide-level 반영:
 
 | Lab | 색상 | 전문 영역 | 슬라이드 매핑 | 정리 상태 |
 |---|---|---|---|---|
-| **이상아 Lab** | #11604B (teal) | 인간 기억·정서 fMRI/EEG, 해마, 공간 탐험 | **Slide 6** (DB 구축) | ✅ Google Slides 반영 (2026-04-22) |
-| **최형진 Lab** | #D55E00 (vermillion) | 동물 칼슘 이미징, 행동 데이터 | Slide 6 animal part | ⏳ 자료 대기 |
-| **차지욱 Lab** | #CC79A7 (Okabe-Ito pink) | fMRI foundation model, depression prediction | **Slide 7** (ML 모델) | ⏳ 자료 대기 |
-| **문태섭 Lab** | #584B9F (purple, Okabe-Ito 차선) | Vision-Language Model, SEED 평가 체계, Quantum ML | **Slide 8** (다중 모달리티) | ✅ Google Slides 반영 (2026-04-23) |
+| **이상아 Lab** | #11604B (teal) | 인간 기억·정서 fMRI/EEG, 해마, 공간 탐험 | **Slide 6 human block** | ✅ Google Slides + 제출본 본문 반영 |
+| **최형진 Lab** | #D55E00 (vermillion) | 동물 칼슘이미징·광유전학, 섭식·정서 회로 | **Slide 6 animal block** + **Slide 9** (편도체 공동연구) | ✅ BK21 자체평가 + 제출본 본문 반영 |
+| **차지욱 Lab** | #CC79A7 (Okabe-Ito pink) | fMRI·EEG·iEEG 파운데이션, 임상 예측, 생성 | **Slide 7A** (fMRI FM) + **Slide 7B** (EEG/iEEG + 임상) | ✅ ephys FM 슬라이드 + 제출본 본문 반영 |
+| **문태섭 Lab** | #584B9F (purple, Okabe-Ito 차선) | Vision-Language, SEED, Quantum ML | **Slide 8** (다중 모달리티) | ✅ SEED poster + 제출본 본문 반영 |
 
 ### 주요 성과 Highlights (Lab별)
 
-#### 이상아 Lab (Slide 6)
-- **실험 1 fMRI/EEG**: 감정 연합 표상·디코딩 (편도체·DMN·PCC·precuneus; Posterior/Frontal θ 바이오마커)
-- **실험 2 공간탐험 EEG**: 회전지점 sequential reactivation + 랜드마크 기반 공간기억
+#### 이상아 Lab (Slide 6 human)
+- **MixedEmo fMRI/EEG (n=92, 32ch, 2048Hz)**: 편도체·DMN·PCC·precuneus; Posterior/Frontal θ 바이오마커; ACC 복측/배측 해리 p=0.010; STAI-X1 불안 p=0.002, 0.003
+- **가상공간 탐험 EEG**: 4개 랜드마크 조건, reactivation bias, 디코딩 10-15% (chance 4%), *Imaging Neuroscience* Lim 2025
+- **해마 OCAT**: CA23DG·CA1 맥락 범주화; 청소년 CA23DG-OFC 발달·정서적 학대 결여
+
+#### 최형진 Lab (Slide 6 animal + Slide 9)
+- **3D 골격 DB**: DeepLabCut · 자유 행동 설치류 · 4+ 행동 분류
+- **VTA-NAc Two-site**: DAT-cre · AAV5-ChrimsonR + AAV9-GRAB_DA1h · 594nm · fiber photometry
+- **편도체 정서 디코딩 (차지욱 공동)**: 표정 × single-neuron ensemble · negative valence
+
+#### 차지욱 Lab (Slide 7A + 7B, 2 슬라이드)
+- **S7A fMRI FM**: SwiFT 8.8B params + 5만명 Power-law · SwiFT-IO R²=0.96 · MBBN ADHD/ASD 주파수별 SOTA · NeuroMamba HCP 94.9%+FLOPs -46.5% · TabLeT CVPR 심사
+- **S7B EEG/iEEG + 임상**: DIVER-1 5.3k iEEG+54k EEG hrs · First Ephys Scaling Law · Language-Brain +14.4% · POYO-SSL +12~13% SSIM 0.593 · RYM F1=0.9 · Polygenic-informed 임상 예측
 
 #### 문태섭 Lab (Slide 8)
-- **SEED** (Semantic Evaluation for Visual Brain Decoding): Object F1 + Caption Similarity + SEED 통합. 22K 인간 판단으로 SOTA 디코더(MindEye2, NeuroPictor, UniBrain, MindBridge, BrainGuard) 평가
-- **Vision-Language Model + TabLeT**: 뇌영상-언어 semantic alignment 기반
+- **SEED** (Juhyeon Park* · Peter Yongho Kim* · Taesup Moon† corresponding, SNU+Brookhaven): Object F1 + Cap-Sim + EffNet · **22K 판단** (22명 × 1K 이미지쌍) · 5 SOTA 디코더 (MindEye2/NeuroPictor/UniBrain/MindBridge/BrainGuard) · failure modes (Semantic Near-Miss, Detail Confusion)
+- **VLM**: LLaVA-Next-Interleave · CLIP-ViT UKB 0.94 · BLIP-2 vs LLaVA 비교 · Simple QnA > CoT
+- **Quantum Time-series Transformer**: Unitary Temporal Embedding + LCU + QSVT · ADHD multi-system involvement
 
 ### 논문 · 제출본 정합성 이슈 (공식화됨)
 
-`achievements.yaml`의 17편 공식 레퍼런스 목록에는 각 Lab의 대표 연구 논문이 **모두 포함되지는 않음**. 예:
+`achievements.yaml`의 17편 공식 레퍼런스 목록에는 각 Lab의 대표 연구 논문이 **모두 포함되지는 않음**:
 - 이상아 Lab 4편 (Lim 2025/8 *Imaging Neuroscience*, Kim 2025/11 *iScience*, Lee 2025/11 *Neuropsychologia*, Koo 2026/1 *Scientific Reports*)
-- 문태섭 Lab SEED 논문
+- 문태섭 Lab SEED 논문 (ICLR 2026 심사 중)
+- 최형진 Lab BK21 신규 논문 (CeA-Glp1R, LH CaMKIIα+, NAc-NPY 등)
 
 사용자 결정: **제출본 그대로 유지** (achievements.yaml 불변). 슬라이드에서는 논문 번호 명시 없이 **방법·결과 중심 narrative**로 전달. 평가단이 구체 논문을 질의하면 구두로 보완.
 

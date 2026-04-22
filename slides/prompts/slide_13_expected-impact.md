@@ -61,7 +61,7 @@ Bottom-right quadrant (사회산업):
   - "소아청소년 정신건강 조기개입 도구"
   - "공공 안전 AI 응용 가능성 확보"
 
-Bottom-right: "13 / 14" in 12pt #5A5A6E.
+Bottom-right: "14 / 15" in 12pt #5A5A6E.
 
 ## Style Rules
 - Equal 2×2 quadrants · 4 soft tint backgrounds · max 3 noun-phrase bullets.

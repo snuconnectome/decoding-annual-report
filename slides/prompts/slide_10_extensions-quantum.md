@@ -51,7 +51,7 @@ Below title, a single horizontal row of 3 compact chips/labels:
 
 Each chip in 14pt #282945 on #FFFFFF background with thin #56B4E9 outline.
 
-Bottom-right: "10 / 14" in 12pt #5A5A6E.
+Bottom-right: "11 / 15" in 12pt #5A5A6E.
 
 ## Style Rules
 - 3 application cards equal width

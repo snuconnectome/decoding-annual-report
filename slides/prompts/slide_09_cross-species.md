@@ -55,7 +55,7 @@ Lower area (30% of slide height): a single wide unified panel spanning full widt
 
 Bottom-left 14pt #5A5A6E: "증빙: 국제 발표 2 · 투고·리뷰 중 2 · 기술개발 1"
 
-Bottom-right: "9 / 14" in 12pt #5A5A6E.
+Bottom-right: "10 / 15" in 12pt #5A5A6E.
 
 ## Style Rules
 - 2 panels + 1 unified panel · SNU Blue inversion for integration · max 3 bullets.

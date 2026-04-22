@@ -38,7 +38,7 @@ Bottom 40%: single horizontal rounded rectangle card, #EDF6FC fill, thin #0072B2
 
 Top-right: flat-style single brain silhouette icon in #0072B2, generous whitespace around.
 
-Bottom-right: "1 / 14" 12pt #5A5A6E.
+Bottom-right: "1 / 15" 12pt #5A5A6E.
 
 No photorealistic images, no 3D, no gradients on text.
 

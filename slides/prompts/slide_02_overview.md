@@ -36,7 +36,7 @@ Between cards: straight horizontal arrows pointing right (no curves, no diagonal
 
 Bottom caption centered 18pt #282945: "기존 디코딩은 수동적 지각에 국한 → 본 연구는 능동적 추론과 정서 맥락을 반영"
 
-Bottom-right: "2 / 14" 12pt #5A5A6E.
+Bottom-right: "2 / 15" 12pt #5A5A6E.
 
 ## Style Rules
 - Background white, three equally-sized cards

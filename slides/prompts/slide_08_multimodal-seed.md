@@ -51,7 +51,7 @@ Right panel:
 
 Bottom single-line caption in 14pt #5A5A6E: "기존 평가 지표(PixCorr, SSIM, CLIP, EffNet 등)의 인간 판단 불일치 문제 해결 → semantic 정합 평가 확립"
 
-Bottom-right: "8 / 14" in 12pt #5A5A6E.
+Bottom-right: "9 / 15" in 12pt #5A5A6E.
 
 ## Style Rules
 - Upper 3 cards light/secondary

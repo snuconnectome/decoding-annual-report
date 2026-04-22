@@ -41,7 +41,7 @@ Card 3 (HIGHLIGHTED, outline #E69F00 instead of #0072B2): "453,500천원" + "변
 Card 4: "600,000천원" + "BrainLife 공개 · 종간 사전학습"
 Card 5: "600,000천원" + "전이학습 검증 · 실험형 전시"
 
-Bottom-right: "3 / 14" in 12pt #5A5A6E.
+Bottom-right: "3 / 15" in 12pt #5A5A6E.
 
 ## Style Rules
 - Single horizontal axis line

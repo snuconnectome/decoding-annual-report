@@ -47,7 +47,7 @@ Bullets (noun-phrase form):
 
 Bottom caption 18pt #282945: "정서 맥락화 기반 지각 디코딩 모델 개발의 핵심 DB · 분석 프로토콜 구축 완료"
 
-Bottom-right: "6 / 14" 12pt #5A5A6E.
+Bottom-right: "6 / 15" 12pt #5A5A6E.
 
 ## Style Rules
 - 2 equal panels side by side

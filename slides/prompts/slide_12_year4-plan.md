@@ -58,7 +58,7 @@ Bottom area (25% of slide height): horizontal budget bar (single bar, 300px heig
 
 Below bar, small 14pt #5A5A6E: "주요 항목: 인건비 64,896 · 학생인건비 189,520 · 연구활동비 95,081 · 연구수당 51,352 · 장비비 32,000 · 재료비 35,901 (단위: 천원)"
 
-Bottom-right: "12 / 14" in 12pt #5A5A6E.
+Bottom-right: "13 / 15" in 12pt #5A5A6E.
 
 ## Style Rules
 - 5 compact cards horizontally

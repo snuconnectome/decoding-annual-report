@@ -7,6 +7,53 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Phase 7 — Granularity 보강 · 15장 재구성 · 연구 보고서 (2026-04-23)
+
+#### 배경
+Phase 6 완료 후 사용자 피드백: "구체적 연구 설명이 부족, 하이레벨만 많다."
+이상아·문태섭 Lab은 storyboard에 granular content 있었으나 차지욱·최형진 Lab은 개요 수준. 차지욱 Lab은 슬라이드 2장에 걸친 구체 연구 결과 정리 필요.
+
+#### Phase A — Google Drive 4개 문서 harvest
+- **디코딩과제-연차보고서-3년차** (Google Docs, 27MB, 2025-12-08) — 공식 제출본 Lab별 실험 상세 추출
+- **ephys foundation model-SNU Connectome Lab** (Google Slides, 차지욱 Lab) — DIVER-1/2 스케일, 3-Phase 전략, Trimodal Alignment
+- **seed_poster_260404.pptx** (문태섭 Lab) — SEED 지표 재검증, 5 SOTA 디코더 확인
+- **(최형진)2025 BK21 자체평가** (Google Sheet) — CeA-Glp1R, NAc-NPY, LH CaMKIIα+, AgRP 회로 등 풍부한 연구 내용
+
+#### Phase B — Lab별 연구 보고서 신규
+- `report/03_lab-research-detail.md` 작성 (~900줄, 8 섹션)
+  - §1 이상아 Lab: MixedEmo fMRI·EEG (n=92, 2048Hz) + 해마 OCAT + 가상공간 EEG + 청소년 발달 등 9 실험
+  - §2 최형진 Lab: 3D 골격 DB + VTA-NAc two-site 광유전학 + 편도체 정서 디코딩 (차지욱 공동) + CeA-Glp1R/NAc-NPY/LH 회로
+  - §3 차지욱 Lab: fMRI FM 6개 (SwiFT 8.8B/SwiFT-IO R²=0.96/MBBN/NeuroMamba/TabLeT/Latent Diffusion) + EEG/iEEG 7개 (DIVER-1 5.3k+54k hrs/POYO-SSL/Language-Brain/CEBRA/RYM/Polygenic/sMRI-Tabular)
+  - §4 문태섭 Lab: VLM (LLaVA-Next-Interleave) + SEED (22K 판단) + Quantum Time-series Transformer
+  - §7 평가항목 #3 (신경과학 메커니즘) 누락 이슈 공식화
+
+#### Phase C — 스토리보드·프롬프트 15장 재구성
+- `slides/storyboard.md` 15장 반영
+  - S7 분할 → **S7A (fMRI FM)** + **S7B (EEG/iEEG + 임상)** · 차지욱 Lab 2 슬라이드
+  - S6 재구성 — 상단 최형진 animal block 확장 (3D 골격 DB + VTA-NAc two-site) + 하단 이상아 human block (실험 수치 구체화: ACC p=0.010, STAI-X1 p=0.002)
+  - S9 재편 — 최형진·차지욱 공동 **편도체 개별신경 × 표정 정서 디코딩** highlight + 종간 통합 narrative
+  - Lab 기여 매핑 테이블 업데이트 (차지욱 = 2 슬라이드, 최형진 = S6 + S9)
+- Prompts:
+  - `slide_07a_cha-fmri.md` 신규 (4 모델 2×2 grid + TabLeT/LDT 하단 띠 + 8.8B hero)
+  - `slide_07b_cha-clinical.md` 신규 (DIVER-1 Row 1 hero + Cross-Modal Row 2 + 임상·생성 Row 3 + 3-Phase 하단)
+  - `slide_07_ml-models.md` 삭제 (S7A로 대체)
+  - 후속 슬라이드 페이지 번호 `/14` → `/15` 일괄 업데이트 (S8→9, S9→10, ..., S14→15)
+
+#### Pending (다음 세션)
+- `slide_06_db-construction.md` · `slide_09_cross-species.md` prompt 재작성 (storyboard 변경 반영)
+- `scripts/generate-slides-matplotlib.py` 15장 분기 확장 + 차지욱 S7A/S7B 렌더러 신규
+- Linux 한글 폰트 설치 (`fonts-nanum` 또는 slides/assets/ `.ttf`) — Apple SD Gothic Neo 없음 대응
+- Gemini nanobanana 1차 시도 (`.env.local` API key) 또는 matplotlib fallback
+- `slides/build/presentation.pdf` 15페이지 재빌드
+
+#### Deliverables this session
+- `report/03_lab-research-detail.md` (신규, ~900 lines, 4 Lab granular research detail)
+- `slides/storyboard.md` (개정, 15장 반영)
+- `slides/prompts/slide_07a_cha-fmri.md` (신규)
+- `slides/prompts/slide_07b_cha-clinical.md` (신규)
+- `slides/prompts/slide_07_ml-models.md` (삭제)
+- 12개 기존 prompt 페이지 번호 `/15` 업데이트
+
 ### Phase 6 — 슬라이드 이미지 생성 완료 (2026-04-23)
 
 #### Initial attempt: Gemini nanobanana2

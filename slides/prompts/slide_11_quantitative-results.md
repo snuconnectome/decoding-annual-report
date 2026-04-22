@@ -50,7 +50,7 @@ Vertical thin separators (very light #A0A0A0, 1px) between the 3 metric blocks.
 
 Bottom strip (small 14pt #5A5A6E, left-aligned): "3차년도 active 평가항목 4개(#1·#2·#4·#5) 전수 달성도 100% · 평가항목 #3은 4차년도 개시 예정"
 
-Bottom-right: "11 / 14" in 12pt #5A5A6E.
+Bottom-right: "12 / 15" in 12pt #5A5A6E.
 
 ## Style Rules
 - Minimal: white background + 3 huge numbers

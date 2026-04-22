@@ -40,7 +40,7 @@ Bottom legend area (small 14pt #5A5A6E): 4 tiny color squares in a row with labe
 - [swatch #CC79A7] "차지욱 Lab (ML foundation)"
 - [swatch #584B9F] "문태섭 Lab (Vision-Language · SEED)"
 
-Bottom-right: "5 / 14" in 12pt #5A5A6E.
+Bottom-right: "5 / 15" in 12pt #5A5A6E.
 
 ## Style Rules
 - 5 cards in horizontal row with straight arrows between them
