@@ -1,0 +1,144 @@
+# 3년차 연차보고서 PDF 페이지 → 섹션 매핑
+#
+# 출처: /Users/jiookcha/Downloads/디코딩과제-연차보고서-3년차 (1).pdf (source/original-3year-report.pdf)
+# 페이지 수: 98
+# 매핑 기준: 실제 콘텐츠 (TOC p10은 참고용으로만 활용)
+#
+# report/ 섹션 파일과의 대응 관계는 각 section의 `report_target`에 표기.
+
+project:
+  project_id: "RS-2023-00265406"
+  agency: "과학기술정보통신부"
+  program: "바이오·의료기술개발(R&D) > 뇌과학선도융합기술개발"
+  year: 3
+  period: "2025-01-01 ~ 2025-12-31"
+  total_pages: 98
+  submission_date: "2025-12-08"
+  principal_investigator:
+    name: "차지욱"
+    position: "부교수"
+    institution: "서울대학교"
+
+sections:
+  - id: "00_cover"
+    title: "표지 및 기술분류"
+    pages: "1-2"
+    report_target: "report/00_cover.md"
+    description: |
+      행정 표지, 사업명·과제번호, 연구책임자·기관 정보, 기술분류 10종,
+      예산 요약, 연구책임자 확인 서명.
+    redact_critical: true  # 개인정보 집중 영역
+
+  - id: "01_summary"
+    title: "요약문"
+    pages: "3-9"
+    report_target: "report/00_cover.md"  # cover 섹션에 통합
+    description: |
+      5쪽 이내 요약문. 기술분류 재기재, 총 예산, 최종목표, 전체 내용,
+      0단계·해당 연도 내용, 연구개발성과 활용방안·기대효과, 핵심어.
+
+  - id: "02_toc"
+    title: "목차"
+    pages: "10"
+    report_target: null  # Markdown에서는 자동 생성
+    description: "제출본의 목차 페이지."
+
+  - id: "03_overview"
+    title: "연구개발과제의 개요"
+    pages: "11"
+    report_target: "report/01_overview.md"
+    description: "최종목표·요약·본문 개요 (3항목)."
+
+  - id: "04_execution"
+    title: "연구개발과제의 수행 과정 및 수행 내용"
+    pages: "12-86"
+    report_target: "report/02_execution.md"
+    subsections:
+      - title: "연구개발 목표 (연차별)"
+        pages: "12"
+      - title: "연구개발과제 평가기준 (6개 평가항목 × 5개년)"
+        pages: "13-15"
+      - title: "3차년도 수행 내용 본문 (실험·모델·결과)"
+        pages: "16-85"
+      - title: "연구개발 추진 일정 (간트 차트)"
+        pages: "86"
+    description: |
+      본 보고서의 핵심 본문. 평가항목 6개에 대한 3차년도 실적:
+      (1) 정서-맥락 지각 DB 구축 25% (p16-)
+      (2) 기계학습 모델 개발 25% (SwiFT, MBBN, POYO-SSL 등)
+      (3) 신경과학적 메커니즘 10%
+      (4) 뇌영상-파운데이션 모델 25% (DIVER-0 등)
+      (5) 종간 파운데이션 모델 25%
+      (6) 확장적 활용 10% (Quantum ML 등)
+
+  - id: "05_results"
+    title: "연구개발과제의 수행 결과 및 목표 달성 정도"
+    pages: "87-88"
+    report_target: "report/03_results.md"
+    description: |
+      정성적 연구개발성과 표. 6개 평가항목 × 3차년도 목표·실적·달성도·증빙.
+      합계 달성도 97.5%.
+
+  - id: "06_next_year_plan"
+    title: "다음 연도 연구개발계획 (4차년도)"
+    pages: "89-91"
+    report_target: "report/04_next-year.md"
+    subsections:
+      - title: "연구개발 목표 및 내용"
+        pages: "89"
+      - title: "연구개발 추진전략 (다이어그램)"
+        pages: "90"
+      - title: "연구개발 일정 및 기대 성과"
+        pages: "91"
+    description: "4차년도(2026) 5개 주요 방향: DB 구축, ML 모델, 신경과학, 파운데이션, 종간 통합."
+
+  - id: "07_budget"
+    title: "연구개발비 사용 계획"
+    pages: "92"
+    report_target: "report/04_next-year.md"  # 다음연도 계획에 통합
+    description: "4차년도 600,000천원 예산 내역 (인건비·장비비·활동비 등)."
+
+  - id: "08_utilization"
+    title: "연구개발 성과의 활용방안 및 기대효과"
+    pages: "93-95"
+    report_target: "report/05_utilization.md"
+    description: |
+      DB 공유(BrainLife), BCI 응용, 정신질환 진단, 파운데이션 모델 오픈소스,
+      학문·의과학·교육·사회산업 4개 효과 축.
+
+  - id: "09_safety_security"
+    title: "연구개발 안전 및 보안조치 이행계획"
+    pages: "96"
+    report_target: "report/06_safety-security.md"
+    description: "데이터 백업·MFA·SSH 키·Git 기반 산출물 버전관리."
+
+  - id: "99_references"
+    title: "레퍼런스 증빙 (논문·학회)"
+    pages: "97-98"
+    report_target: "report/99_references.md"
+    description: |
+      번호·유형(논문/학회참석)·제목 표. 총 21건 (논문 17, 학회참석 4).
+
+# 주요 표 예상 위치 (pdfplumber 추출 검증용)
+expected_tables:
+  - pages: "1-2"
+    content: "기술분류, 연구개발비 요약"
+  - pages: "5-9"
+    content: "요약문 내부 표 (기술분류 재기재, 목표, 연도별 내용)"
+  - pages: "13-15"
+    content: "평가기준 (6항목 × 5개년 × 목표)"
+  - pages: "87-88"
+    content: "정성적 연구개발성과 (평가항목별 실적)"
+  - pages: "92"
+    content: "연구개발비 사용 계획"
+  - pages: "97-98"
+    content: "레퍼런스 증빙 (논문·학회 번호·제목)"
+
+# 주요 그림 예상 위치 (pymupdf 이미지 추출 검증용)
+expected_figures:
+  - page: 86
+    content: "연구개발 추진 일정 간트 차트"
+  - page: 90
+    content: "연구개발 추진전략 다이어그램 (5단계 플로우)"
+  - page: 91
+    content: "다음 연도 일정 및 기대성과 간트"
