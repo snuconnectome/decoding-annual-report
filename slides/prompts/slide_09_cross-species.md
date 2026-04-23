@@ -4,9 +4,10 @@
 - model: gemini-3.1-flash-image-preview (nanobanana2)
 - resolution: 4K · aspect_ratio: 16:9 · thinking_mode: high · language: ko
 
-## Rendering Rule (Phase 10)
+## Rendering Rule (Phase 10 + 오타 방지)
 - 발견 중심 · 명사형 종결 · AI hype 금지
 - 상단 공동연구 diagram + 중단 2 패널 + 하단 4 모달리티 수렴 diagram
+- **렌더 절대 금지**: hex 색상 코드 (예 #D55E00) · pt 크기 표기 (예 14pt) · "Bold" 같은 스타일 마커 · 의미 없는 한글 음절 조합 (예 "경과등이영") — 이는 모두 디자인 지시이므로 시각적으로 텍스트로 그리지 말 것
 
 ## Prompt for nanobanana
 
@@ -25,7 +26,7 @@
 - 배경 그라데이션: 좌 #FDECE2 → 우 #F4E3EE
 - 좌측 bar #D55E00 + 우측 bar #CC79A7 각 8px
 - 헤드라인 18pt Bold #003380: "[공동연구] 설치류 표정과 편도체 단일 뉴런 앙상블을 결합한 정서 디코딩"
-- **중앙 diagram (전폭)**: flat line 설치류 얼굴 (라벨 "표정") + 화살표 → 편도체 실루엣 (내부 6~8 작은 원형 점 = 단일 뉴런 발화) + 화살표 → 출력 "공포 / 혐오" 카테고리 박스
+- **중앙 diagram (전폭)**: flat line 설치류 얼굴 (라벨 "표정") + 화살표 → 편도체 실루엣 (내부 6~8 작은 원형 점 = 단일 뉴런 발화) + 화살표 → 출력 카테고리 박스에는 정확히 "공포 / 혐오" 두 단어만 표기 (그 외 어떤 보조 텍스트·부제·라벨도 추가 금지)
 - 하단 11pt #5A5A6E: "동물·사람 양 트랙 공동연구 · 2023.10 – 2025.02 · 2024 iSRC 동계 성과보고회 발표"
 
 **중단 — 양측 표현 학습 대비 (세로 약 38%)**:

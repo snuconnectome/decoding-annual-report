@@ -1,107 +1,16 @@
 {
-  "started": "2026-04-23T04:01:55.577426Z",
+  "started": "2026-04-23T04:17:03.716597Z",
   "model": "gemini-3.1-flash-image-preview",
   "aspect_ratio": "16:9",
   "generated": [
     {
-      "source": "slide_01_title.md",
-      "output": "slide_01_title.png",
-      "detail": "attempt 1: 550408 bytes",
-      "seconds": 14.3,
-      "timestamp": "2026-04-23T04:02:09.876858Z"
-    },
-    {
-      "source": "slide_02_overview.md",
-      "output": "slide_02_overview.png",
-      "detail": "attempt 1: 408830 bytes",
-      "seconds": 14.4,
-      "timestamp": "2026-04-23T04:02:24.239664Z"
-    },
-    {
-      "source": "slide_03_roadmap.md",
-      "output": "slide_03_roadmap.png",
-      "detail": "attempt 1: 459375 bytes",
-      "seconds": 20.2,
-      "timestamp": "2026-04-23T04:02:44.428208Z"
-    },
-    {
-      "source": "slide_04_year3-goals.md",
-      "output": "slide_04_year3-goals.png",
-      "detail": "attempt 1: 556764 bytes",
-      "seconds": 18.6,
-      "timestamp": "2026-04-23T04:03:03.026262Z"
-    },
-    {
-      "source": "slide_05_strategy.md",
-      "output": "slide_05_strategy.png",
-      "detail": "attempt 1: 489481 bytes",
-      "seconds": 15.2,
-      "timestamp": "2026-04-23T04:03:18.229851Z"
-    },
-    {
-      "source": "slide_06_db-construction.md",
-      "output": "slide_06_db-construction.png",
-      "detail": "attempt 1: 797899 bytes",
-      "seconds": 19.9,
-      "timestamp": "2026-04-23T04:03:38.126823Z"
-    },
-    {
-      "source": "slide_07a_cha-fmri.md",
-      "output": "slide_07a_cha-fmri.png",
-      "detail": "attempt 1: 816734 bytes",
-      "seconds": 35.0,
-      "timestamp": "2026-04-23T04:04:13.175596Z"
-    },
-    {
-      "source": "slide_07b_cha-clinical.md",
-      "output": "slide_07b_cha-clinical.png",
-      "detail": "attempt 1: 800745 bytes",
-      "seconds": 24.3,
-      "timestamp": "2026-04-23T04:04:37.471435Z"
-    },
-    {
-      "source": "slide_08_multimodal-seed.md",
-      "output": "slide_08_multimodal-seed.png",
-      "detail": "attempt 1: 739011 bytes",
-      "seconds": 38.8,
-      "timestamp": "2026-04-23T04:05:16.251561Z"
-    },
-    {
       "source": "slide_09_cross-species.md",
       "output": "slide_09_cross-species.png",
-      "detail": "attempt 1: 785964 bytes",
-      "seconds": 22.6,
-      "timestamp": "2026-04-23T04:05:38.865984Z"
-    },
-    {
-      "source": "slide_10_extensions-quantum.md",
-      "output": "slide_10_extensions-quantum.png",
-      "detail": "attempt 1: 656654 bytes",
-      "seconds": 17.1,
-      "timestamp": "2026-04-23T04:05:56.001079Z"
-    },
-    {
-      "source": "slide_11_quantitative-results.md",
-      "output": "slide_11_quantitative-results.png",
-      "detail": "attempt 1: 448772 bytes",
-      "seconds": 25.0,
-      "timestamp": "2026-04-23T04:06:20.980590Z"
-    },
-    {
-      "source": "slide_12_year4-plan.md",
-      "output": "slide_12_year4-plan.png",
-      "detail": "attempt 1: 631750 bytes",
-      "seconds": 33.3,
-      "timestamp": "2026-04-23T04:06:54.264225Z"
-    },
-    {
-      "source": "slide_13_expected-impact.md",
-      "output": "slide_13_expected-impact.png",
-      "detail": "attempt 1: 610952 bytes",
-      "seconds": 27.4,
-      "timestamp": "2026-04-23T04:07:21.672484Z"
+      "detail": "attempt 1: 744763 bytes",
+      "seconds": 23.0,
+      "timestamp": "2026-04-23T04:17:26.739156Z"
     }
   ],
   "failed": [],
-  "completed": "2026-04-23T04:07:21.672500Z"
+  "completed": "2026-04-23T04:17:26.739175Z"
 }
