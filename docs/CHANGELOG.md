@@ -7,6 +7,37 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Phase 10 — 텍스트 축약 + 시각 요소 대체 + 3회 리뷰 (2026-04-23 말)
+
+사용자 피드백: Phase 9.1 의 텍스트 밀도 과다. 연구 설명부 30~50% 축소 + 아이콘·도식 대체.
+
+이전 버전 보존: `v0.9.1-verbose` 태그 (커밋 c169a45).
+
+계획: `docs/pdca/phase-10-visual-reduction/plan.md`
+수렴 결과: `docs/pdca/phase-10-visual-reduction/check.md`
+
+6 핵심 슬라이드 (S6·S7A·S7B·S8·S9·S10) 에:
+- 텍스트 약 28~30% 감축 (S6 −37% · S7A·S7B·S9 각 −30% · S8 −27% · S10 −1% 시각 보강)
+- 중앙 다이어그램·아이콘 도입: 설치류+광섬유 / 뇌 4영역 하이라이트 / reactivation 상승 곡선 / 로그-로그 스케일링 그래프 / R² 양방향 축 / DIVER 3-Phase 흐름 / 벤다이어그램 3원 교집합 / 4 모달리티 수평 파이프라인 / 양자 회로 도식 등
+- 이모지 문자 완전 제거 → flat line 아이콘 지시
+
+3회 독립 리뷰 (technical-writer + quality-engineer + scientific-narrative 합본):
+- Iter 1: Critical 16건 수정 (이모지 잔존 · 1e20 FLOPs 누락 · SOTA/상회 어휘 · 뇌 도식 과밀 등)
+- Iter 2: Critical 8건 + Regression 3건 수정 (LSTM 수치 고정 · Lab 어휘 통일 · CoT 풀네임 등)
+- Iter 3: Critical·Regression 0건 → **승인**
+
+수정 주요 부분:
+- S7B "SOTA 77배" → "선행 최대 규모 대비 77배" (Lab 어휘 일관)
+- S7A 카드 1·4 에 muP·NeRF 풀네임 / S10 LCU·QSVT 풀네임
+- S8 SEED 풀네임 (Semantic Evaluation for Visual Brain Decoding) 추가 · BLIP-2 0.779 복원 · CoT (Chain-of-Thought) 풀네임
+- S6 하단 패널 Discovery 헤드라인 1줄 추가 · 뇌 4영역 (편도체·DMN·PCC·ACC) 일치
+- S9 하단 4 모달리티 단일 화살표 수렴 · "학습 반복 수가 모델 크기보다 성능 기여가 큼" 풀어쓰기
+- S10 양자 칩 2줄 분리 · Subtitle "4 Lab 공통 응용 + 문태섭 양자" 로 Lab 귀속 재조정
+
+렌더 + PDF:
+- gemini-3.1-flash-image-preview (nanobanana2) · 15/15 attempt 1 성공
+- slides/build/presentation.pdf · 15페이지 · 16:9 · 9.3MB
+
 ### Phase 9 — 발견 중심 서사 + 진중한 어조 + 3회 독립 리뷰 루프 (2026-04-23 후반)
 
 #### 사용자 피드백 (3건 누적)
