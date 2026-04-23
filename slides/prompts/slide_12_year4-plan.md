@@ -1,87 +1,81 @@
 # S12 Prompt — 4차년도 연구개발계획
 
 ## API Configuration
-- model: gemini-3.1-flash-image-preview
+- model: gemini-3.1-flash-image-preview (nanobanana2)
 - resolution: 4K (3840x2160)
 - aspect_ratio: 16:9
 - thinking_mode: high
 - language: ko
 
 ## Rendering Rule
-- Text with pt size + color specifications → RENDER in image
-- Design instructions (layout, positioning) → DO NOT render, follow as structure guide
+- 약어 없음 정책: 풀네임 + 수치 의미 부기
 
 ## MASTER THEME (snu_neurox)
-- Layout: 5 direction cards horizontal + budget bar below
+- Layout: 5개 방향 카드 수평 + 예산 막대 하단
+- Page number: "13 / 15"
 
-## Prompt for nanobanana2
+## Prompt for nanobanana
 
-Create a 16:9 horizontal Korean forward-plan infographic on #FFFFFF background.
+16:9 horizontal Korean forward-plan infographic, #FFFFFF background.
 
-Top-left header: "디코딩과제 3년차" in 14pt #003380.
+**Top-left header**: "디코딩과제 3년차" 14pt #003380.
 
-Title: "4차년도(2026) 연구개발계획" in 32pt Bold #003380.
-Subtitle: "예산 600,000천원 (약 6억원) · 5개 핵심 방향" in 22pt #0072B2.
+**Title**: "4차년도 (2026) 연구개발계획" 30pt Bold #003380.
+**Subtitle**: "예산 6억원 (600,000천원) · 5개 핵심 방향" 18pt #0072B2.
 
-Main area (55% of slide height): 5 numbered compact cards arranged horizontally with equal spacing. Each card has #EDF6FC fill, thin #0072B2 outline, small icon + number at top.
+**상단 주요 영역 (세로 약 55%) — 5개 번호 카드** (동일 너비, #EDF6FC 배경, 얇은 #0072B2 테두리):
 
-Card 01:
-- Icon: flat database/cylinder in #0072B2
-- Title: "DB BrainLife 공개" in 18pt Bold #003380
-- 1-line desc: "자연환경 지각·정서 DB 오픈" in 14pt #282945
+**카드 01 — 데이터베이스 공개 (BrainLife 플랫폼)**:
+- 아이콘: 평면 데이터베이스 실린더 #0072B2
+- 제목 16pt Bold #003380: "데이터베이스 공개 (BrainLife)"
+- 설명 12pt #282945: "자연환경 지각·정서 데이터베이스를 BrainLife 오픈 플랫폼으로 공개 · 전 세계 연구자 공유"
 
-Card 02:
-- Icon: flat network/graph
-- Title: "다중 입력 분포 ML"
-- Desc: "동일종 다중 모달리티 디코더 검증"
+**카드 02 — 다중 입력 분포 기계학습 모델**:
+- 아이콘: 평면 네트워크 그래프
+- 제목 16pt Bold #003380: "다중 입력 분포 기계학습"
+- 설명 12pt #282945: "동일 종에서 다중 모달리티 (구조적·기능적 자기공명영상·뇌전도) 통합 디코더 검증"
 
-Card 03:
-- Icon: flat light/beam (two-site 광유전학)
-- Title: "신경과학 메커니즘"
-- Desc: "two-site 광유전학 · 칼슘이미징"
+**카드 03 — 신경과학 메커니즘 규명 (3년차 누락 항목 재개)**:
+- 아이콘: 평면 광선 (two-site 광유전학)
+- 제목 16pt Bold #003380: "신경과학 메커니즘"
+- 설명 12pt #282945: "2개 부위 (two-site) 광유전학 + 칼슘이미징 · 감각-정서의 직접적 인과관계 규명"
 
-Card 04:
-- Icon: flat layered box (foundation)
-- Title: "파운데이션 전이학습"
-- Desc: "대규모 사전학습 + 전이 성능 검증"
+**카드 04 — 파운데이션 모델 전이학습 검증**:
+- 아이콘: 평면 층상 박스
+- 제목 16pt Bold #003380: "파운데이션 모델 전이학습"
+- 설명 12pt #282945: "대규모 사전학습 (Pre-training) + 전이학습 (Transfer Learning) 성능 검증"
 
-Card 05:
-- Icon: flat connected-species symbol
-- Title: "동물-사람 종간 통합"
-- Desc: "종간 파운데이션 모델 사전학습"
+**카드 05 — 동물-사람 종간 통합**:
+- 아이콘: 평면 연결된 종 심볼
+- 제목 16pt Bold #003380: "동물-사람 종간 통합"
+- 설명 12pt #282945: "동물 행동·신경 신호 + 사람 기능적 자기공명영상·뇌전도 → 종간 파운데이션 모델 사전학습"
 
-Bottom area (25% of slide height): horizontal budget bar (single bar, 300px height).
+**하단 영역 (세로 약 25%) — 예산 수평 막대** (단일 막대, 높이 약 180px):
 
-- Left 78% (direct): SNU Blue #003380 fill with white label inside "직접비 468,750천원" in 18pt Bold white
-- Right 22% (indirect): Neural Teal #0072B2 fill with white label "간접비 131,250천원" in 18pt Bold white
-- Above bar, right-aligned total: "합계 600,000천원" in 22pt Bold #E69F00
+- 왼쪽 78% 구간: SNU Blue #003380 채우기 + 흰색 라벨 "직접비 468,750천원 (약 4억 6,875만원)" 16pt Bold
+- 오른쪽 22% 구간: Neural Teal #0072B2 채우기 + 흰색 라벨 "간접비 131,250천원 (약 1억 3,125만원)" 16pt Bold
+- 막대 위 오른쪽: "합계 600,000천원 (약 6억원)" 20pt Bold #E69F00
 
-Below bar, small 14pt #5A5A6E: "주요 항목: 인건비 64,896 · 학생인건비 189,520 · 연구활동비 95,081 · 연구수당 51,352 · 장비비 32,000 · 재료비 35,901 (단위: 천원)"
+**막대 하단 캡션** 12pt #5A5A6E:
+"주요 항목: 연구자 인건비 64,896 · 학생 인건비 189,520 · 연구활동비 95,081 · 연구수당 51,352 · 장비비 32,000 · 재료비 35,901 (단위: 천원 = 원의 1,000배)"
 
-Bottom-right: "13 / 15" in 12pt #5A5A6E.
+**Bottom-right**: "13 / 15" 12pt #5A5A6E.
 
 ## Style Rules
-- 5 compact cards horizontally
-- Single stacked budget bar showing direct/indirect split
-
-## Consistency Lock
-snu_neurox theme, numbered cards match Slide 5.
+- 5개 카드 동일 너비
+- 단일 누적 예산 막대로 직접/간접 분할
+- 천원 단위에 억원 환산 병기
 
 ## Negative
-- no 6th direction card (strict 5-only)
-- no pie chart for budget
-- no nested budget breakdowns
-- no photorealistic scientific images
-
-## Fallback Layout
-If 5-card + bar fails:
-- Reduce to 5 vertical labels on left + budget bar on right
+- 6번째 방향 카드 금지 (5개로 제한)
+- 파이차트 금지
+- 예산 세부 중첩 금지
+- 사진사실적 과학 이미지 금지
 
 ## Self-Validation
-- [x] Single core message: "2026 5개 방향 + 600,000천원"
-- [x] Word count ≤ 400
-- [x] Colors ≤ 5
-- [x] Complexity: MED
+- [x] BrainLife 설명 추가, ML=기계학습, two-site=2개 부위 표기
+- [x] 600,000천원 = 6억원, 468,750 = 4.6875억 등 단위 환산
+- [x] 파운데이션 모델, 사전학습, 전이학습 용어 풀네임
 
 ## Review Status
-READY
+PHASE 8 (no-acronym + 수치 의미 명시 완료)

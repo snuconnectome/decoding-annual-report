@@ -1,100 +1,66 @@
-# S9 Prompt — 동물-사람 종간 파운데이션 · 최형진·차지욱 편도체 공동연구
+# S9 Prompt — 동물-사람 종간 파운데이션 · 편도체 공동연구
 
 ## API Configuration
-- model: gemini-2.5-flash-image (nanobanana)
-- resolution: 4K (3840x2160)
-- aspect_ratio: 16:9
-- thinking_mode: high
-- language: ko
+- model: gemini-3.1-flash-image-preview (nanobanana2)
+- resolution: 4K · aspect_ratio: 16:9 · thinking_mode: high · language: ko
 
-## Rendering Rule
-- Text with pt size + color specifications → RENDER in image
-- Design instructions (layout, positioning) → DO NOT render, follow as structure guide
-
-## MASTER THEME (snu_neurox)
-- Layout: 공동연구 하이라이트 (상단) + Animal·Human 대비 (중단) + 공통 표현 (하단)
-- Page number: "10 / 15"
+## Rendering Rule (Phase 9)
+- 발견 중심 · 약어 풀이 · 수치 의미 · 명사형 · 진중 어조 · AI hype 금지
 
 ## Prompt for nanobanana
 
-Create a 16:9 horizontal Korean integration infographic on #FFFFFF background.
+16:9 horizontal Korean infographic, #FFFFFF background.
 
-**Top-left header**: "디코딩과제 3년차" in 14pt #003380.
+**Header**: "디코딩과제 3년차" 14pt #003380.
 
-**Title**: "동물-사람 종간 파운데이션 모델 — 평가항목 #4 (25%)" in 32pt Bold #003380.
-**Subtitle**: "최형진·차지욱 Lab 편도체 공동연구 + 종간 통합" in 22pt #0072B2.
+**Title (26pt Bold #003380)**: "동물 신경 활동과 사람 뇌영상을 잇는 공통 표현 학습 기반 확립"
+**Subtitle (16pt #0072B2)**: "최형진 · 차지욱 Lab 편도체 공동연구 + 종간 통합 · 평가항목 제4번 · 달성도 100%"
 
-**Top-right Hero**: "**5개 세부 연구**" 22pt Bold #E69F00 + "100%" 작은 원형 배지 우하단.
+**Hero 우상단 2단**: 상단 "동물·사람 양측에서 멱법칙 스케일링 경향 관찰" 13pt Bold #003380, 하단 "편도체 공동연구 1건 + 양측 표현 학습 2 트랙" 10pt #5A5A6E.
 
-**Upper highlight band (세로 22%)** — 공동연구 신규:
-- Background: linear gradient from #FDECE2 (left, 최형진) to #F4E3EE (right, 차지욱)
-- Dual accent bars: 좌측 #D55E00 (vermillion) + 우측 #CC79A7 (Okabe pink) 각 8px
-- Title (가운데 정렬): "🔬 편도체 개별신경 × 표정 기반 정서 디코딩" → 이모지 제거, 대신 "**[ 공동연구 ]**" 텍스트. 22pt Bold #003380
-- Subtitle: "최형진·차지욱 Lab 공동 · 2023.10 ~ 2025.02 · 2024 iSRC 성과보고회" 14pt #5A5A6E
-- 2열 (14pt #282945):
-  - Left: "설치류 표정 (안구·입 주위 근육) + 개별 뉴런 앙상블 활동"
-  - Right: "편도체 subpopulation · 공포/혐오 구별 · **negative valence encoding**"
+**상단 공동연구 띠 (세로 약 22%)**:
+- 배경 그라데이션: 좌측 #FDECE2 (최형진 연한 복숭아) → 우측 #F4E3EE (차지욱 연한 분홍)
+- 좌측 bar #D55E00 (주홍) + 우측 bar #CC79A7 (분홍) 각 8px
+- 헤드라인 18pt Bold #003380: "[ 공동연구 ] 설치류 표정과 편도체 단일 뉴런 앙상블을 결합한 정서 디코딩 체계"
+- 부제 11pt #5A5A6E: "최형진 · 차지욱 Lab 공동 · 2023년 10월 ~ 2025년 2월 · 2024 iSRC 동계 성과보고회 발표"
+- 본문 12pt #282945 (2열):
+  - 좌: "자유 행동 설치류의 표정 (안구·입 주위 근육) 을 3차원 골격 추적과 함께 기록함"
+  - 우: "편도체 하위 집단이 공포·혐오를 구별하는 발화 패턴을 보임 · 부정적 감정가 (negative valence) 부호화의 단일 뉴런 수준 단서를 제공함"
 
-**Middle area (세로 40%)** — Animal vs Human:
+**중단 영역 (세로 약 40%) — 동물 / 사람 표현 학습 대비**:
 
-**LEFT panel (Animal 표현 학습)**:
-- Background: #EDF6FC
-- Left accent bar: #D55E00 (vermillion) · 8px
-- Title: "동물 (Animal) 표현 학습" 22pt Bold #003380
-- Bullets 14pt #282945:
-  - "**POYO-SSL** — Cell-Pattern-Aware SSL"
-  - "Allen Brain Observatory 칼슘 이미징"
-  - "SST · VIP · PVALB · NTSR1 분류"
-  - "**+12~13%** · SSIM 0.593 · 1.98× 효율"
-  - "Skip-Connection U-Net 디코더"
+**좌측 패널 — 동물 표현 학습 (최형진 Lab · LAB_VERMIL bar)**:
+- 배경 #EDF6FC, 좌측 bar #D55E00
+- 헤드라인 14pt Bold #003380: "동물 신경 반응 이질성을 대비 학습 신호로 활용함"
+- 본문 11pt #282945:
+  - "POYO-SSL — 자기지도학습 (SSL, Self-Supervised Learning) 프레임워크를 구축함"
+  - "Allen Brain Observatory 칼슘이미징 데이터를 활용함"
+  - "예측 가능한 세포 군집 (체세포 억제 SST · 혈관활성 VIP · 파발부민 PVALB · 뉴로텐신 NTSR1) 을 우선 반영함"
+  - "무학습 시작 기준선 대비 12~13%p 성능 향상을 관찰함"
+  - "영화 프레임 복원 구조적 유사도 (SSIM) 0.593 (범위 0~1, 1.0이 이론적 상한) 을 보임"
+  - "드리프팅 그레이팅 방향 분류 정확도 55.5% (기준선 49.2% 대비 개선)"
+  - "데이터 효율 약 2배 개선을 관찰함 (동일 성능에 필요 데이터 절반)"
 
-**RIGHT panel (Human 표현 학습)**:
-- Background: #EDF6FC
-- Left accent bar: #CC79A7 (Okabe pink) · 8px
-- Title: "사람 (Human) 표현 학습" 22pt Bold #003380
-- Bullets 14pt #282945:
-  - "**SwiFT** — 8.8B params · Power-law"
-  - "UKB + HCP + ABCD 5만명 rs-fMRI"
-  - "**DIVER-1** — 5.3k iEEG + 54k EEG hrs · 17.7k 피험자"
-  - "Any-Variate Attention · STCPE · Multi-Domain Recon"
-  - "Neuroprobe 15 과제 · FACED · PhysioNet-MI"
+**우측 패널 — 사람 표현 학습 (차지욱 Lab · PALETTE_PINK bar)**:
+- 배경 #EDF6FC, 좌측 bar #CC79A7
+- 헤드라인 14pt Bold #003380: "대규모 뇌영상·뇌전도 사전학습으로 범용 표상 기반을 확보함"
+- 본문 11pt #282945:
+  - "SwiFT — 88억 파라미터 · 영국 바이오뱅크 + 인간 커넥톰 프로젝트 (HCP) + 청소년기 뇌 인지 발달 (ABCD) 총 약 5만명"
+  - "DIVER-1 — 두개내 뇌전도 5,300시간 + 두피 뇌전도 54,000시간 · 17,700명 · 160만 채널-시간"
+  - "임의 변량 어텐션 · 슬라이딩 시간 조건부 위치 인코딩 · 다중 영역 복원"
+  - "Neuroprobe 벤치마크 15 과제 · 감정·운동·인지 과제에서 일관된 성능을 보임"
+  - "제한된 연산 예산에서 학습 반복 수의 중요성이 파라미터 수보다 큰 것으로 관찰됨"
 
-**Lower unified band (세로 20%)**:
-- Background: #003380 (SNU Blue 반전)
-- Title in white: "공통 표현 학습 기반" 22pt Bold
-- Body in white: "구조 (sMRI) · 기능 (fMRI) · 전기생리 (iEEG/EEG) · 행동 (표정·video) 통합 → **Trimodal Alignment** → 종간 파운데이션 모델 핵심 토대 확보" 18pt
+**하단 통합 띠 (세로 약 18%)** — 배경 #003380 (대비):
+- 헤드라인 흰색 17pt Bold: "양측 (동물·사람) × 4 모달리티 (sMRI·fMRI·iEEG/EEG·행동) 개별 확립 — 4차년도 통합 진입 준비"
+- 본문 흰색 11pt: "구조적 자기공명영상 (sMRI) · 기능적 자기공명영상 (fMRI) · 두개내/두피 뇌전도 (iEEG/EEG) · 행동 (표정·영상) 을 개별 확립함. 양측 모두에서 대규모 비레이블 신경 데이터의 멱법칙 스케일링 경향이 관찰되어 종간 파운데이션 모델 가능성을 시사함"
 
-**Bottom-left** 12pt #5A5A6E: "증빙: 국제 발표 2 · 투고·리뷰 중 2 · 기술개발 1 · 공동연구 참여학생: 김유빈·서정우"
+**Bottom-left** 10pt #5A5A6E: "증빙: 국제 발표 2건 · 투고·리뷰 중 2편 · 기술개발 (3차원 골격 추적 프로토콜) 1건 · 편도체 공동연구 참여학생: 김유빈 · 서정우"
 
 **Bottom-right**: "10 / 15" 12pt #5A5A6E.
 
-## Style Rules
-- 상단 공동연구 band: 최형진·차지욱 dual color bar
-- 중단 Animal vs Human: 대칭 panels, 각 Lab color bar
-- 하단 unified band: SNU Blue inversion (강조)
-- 편도체 공동연구 → 핵심 narrative hook
-
-## Consistency Lock
-- Same Lab color coding as Slides 6, 7A, 7B, 8
-- Same rounded panel style
-
 ## Negative
-- no 3-level nested hierarchy
-- no diagonal arrows
-- no photorealistic mice / humans / brains
-- no circular integration diagrams
-- no emoji in actual rendering (text only)
-
-## Fallback Layout
-If 3-band vertical fails:
-- Collapse to 2 bands: 공동연구 highlight 상단 + Animal-Human-Unified 하단 3-row grid
-
-## Self-Validation
-- [x] Single core message: "편도체 공동연구 + 종간 통합 = 95%+ 달성"
-- [x] Word count ≤ 500
-- [x] Colors ≤ 6 (SNU Blue, Signal Orange, LAB_VERMIL, PALETTE_PINK, BG_PEACH, SNU Ice)
-- [x] Complexity: MED-HI
-- [x] 공동연구 하이라이트 + 2 panel + 1 unified = 3-block 깔끔
+- AI hype 금지 · "...했다" 금지 · 약어 단독 금지 · 대각선 화살표 금지
 
 ## Review Status
-GRANULAR (Phase 7 최형진·차지욱 편도체 공동연구 중심 재편 완료)
+PHASE 9 v1 (review iteration 0)

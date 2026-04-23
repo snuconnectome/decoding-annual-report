@@ -35,11 +35,11 @@ Center main area: one horizontal thin line in #003380 (the timeline axis) spanni
 
 Below each marker (approx 40px below the timeline axis), place a small rounded rectangle card with #EDF6FC fill, thin #0072B2 outline, containing:
 
-Card 1: Budget "300,000천원" in 18pt Bold #003380, below it "빅데이터 자동화 실험환경" in 14pt #282945
-Card 2: "453,500천원" + "고정 환경 지각 DB"
-Card 3 (HIGHLIGHTED, outline #E69F00 instead of #0072B2): "453,500천원" + "변동 환경 DB + 멀티 모달리티 ML"
-Card 4: "600,000천원" + "BrainLife 공개 · 종간 사전학습"
-Card 5: "600,000천원" + "전이학습 검증 · 실험형 전시"
+Card 1: 예산 "3억원 (300,000천원)" in 16pt Bold #003380, below it "대규모 데이터 자동화 실험 환경 구축" in 12pt #282945
+Card 2: "4.535억원 (453,500천원)" + "고정 환경 지각 데이터베이스"
+Card 3 (HIGHLIGHTED, outline #E69F00 instead of #0072B2): "4.535억원 (453,500천원)" + "변동 환경 데이터베이스 + 다중 모달리티 기계학습 모델"
+Card 4: "6억원 (600,000천원)" + "BrainLife 플랫폼 데이터 공개 · 종간 사전학습"
+Card 5: "6억원 (600,000천원)" + "전이학습 검증 · 실험형 예술 전시"
 
 Bottom-right: "3 / 15" in 12pt #5A5A6E.
 

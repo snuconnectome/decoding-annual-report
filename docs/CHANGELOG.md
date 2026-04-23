@@ -7,6 +7,55 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Phase 9 — 발견 중심 서사 + 진중한 어조 + 3회 독립 리뷰 루프 (2026-04-23 후반)
+
+#### 사용자 피드백 (3건 누적)
+1. "수치만 보여주지 말고 무엇을 알아냈다·만들었다 식으로" — Discovery-Construction-Evidence 구조
+2. "AI hype ('세계 최초', '최고') 배제, 차지욱 교수의 진중·섬세·조심스러운 어조"
+3. "...했다 가 아니라 ...함 명사형 종결"
+
+#### 결과물
+- `docs/narrative-style-guide.md` 신규 — Phase 9 5대 원칙 + Before/After 예시 + 금지 표현 매트릭스
+- `report/03_lab-research-detail.md` §0.1 용어 사전 (전공별 약어 풀이 ~80건) + §0.2 수치 해석 가이드 (R²/SSIM/F1 등)
+- 6개 핵심 prompt 재작성 (S6, S7A, S7B, S8, S9, S10) — 발견 중심 헤드라인 · 명사형 종결 · AI hype 0
+- 5개 보조 prompt 약어·수치 의미 보강 (S3, S4, S5, S11, S12, S13, S14)
+
+#### 보안 사고 → 복구
+- Phase 7 커밋 392cdeb 에 Gemini API key 평문 노출 → Google 자동 무효화 (403 PERMISSION_DENIED)
+- 801e82e 커밋으로 redact + 사고 노트 추가
+- 새 키로 재생성 (`.env.local` 전용, gitignored)
+
+#### 3회 독립 리뷰 루프 (3인 패널)
+- 패널: technical-writer · quality-engineer · scientific-narrative
+- 6개 핵심 prompt 대상
+
+| Iter | Critical | Important | Minor | Regressions | 판단 |
+|---|---|---|---|---|---|
+| 0 v1 | — | — | — | — | 6개 prompt 작성 |
+| 1 | 12 → 수정 | 9 → 수정 | 7 → 일부 | — | 진행 |
+| 2 | 15 → 수정 | 4 → 일부 | 3 | 3 → 수정 | 진행 |
+| 3 | 4 → 수정 | 0 | 0 | **0** | **승인** |
+
+상세: `docs/pdca/phase-9-review-loop/check.md`
+
+#### 핵심 수정 예시 (Iter 1~3 합산)
+- "최고 모델" → "선행 모델" (S7B)
+- "선형 반복 신경망 (LSTM)" 한국어 오역 → "장단기기억 (LSTM, Long Short-Term Memory)" (S7A)
+- "정준기" 한글명 오기 → "정천기" (S7B)
+- p=0.010 귀속 정확화 ("분리" → "긍정-부정 vs 부정-긍정 비교") (S6)
+- Hero 수치 단독 → "Discovery 문장 + 수치" 2단 구조 (S7A·S7B·S9)
+- "기반선" → "기준선" (한국어 표준어)
+- "1.0이 완벽 예측"/"완전 일치" 금지어 → "(범위 0~1, 1.0이 이론적 상한)" (S7A·S7B·S8·S9)
+- TabLeT 의 S7A·S8 Lab 귀속 충돌 해소 (S8 → SEED 메타평가 결과로 교체)
+- S9 Hero "5개 세부 연구" 근거 부재 → "편도체 공동연구 1건 + 양측 표현 학습 2 트랙"
+- S10 카드 3 "예술 전시" 증거 부재 → RYM 기반 대중 응용으로 재작성
+- S10 Title "정리함" → "확장하고 ... 보고함" Discovery 포함
+
+#### 렌더 + PDF 재빌드
+- `gemini-3.1-flash-image-preview` (nanobanana2) · 15/15 attempt 1 성공
+- PNG 각 416KB ~ 999KB (Phase 8 대비 ~50% 증가, 더 풍부한 본문 반영)
+- `slides/build/presentation.pdf` 15페이지 16:9 재빌드
+
 ### Phase 7 — Granularity 보강 · 15장 재구성 · 연구 보고서 (2026-04-23)
 
 #### 배경

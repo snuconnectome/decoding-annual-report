@@ -1,18 +1,20 @@
-# S6 Prompt — DB 구축 · 이상아 Lab (사람) + 최형진 Lab (동물) 공동
+# S6 Prompt — 데이터베이스 구축 · 이상아 Lab (사람) + 최형진 Lab (동물)
 
 ## API Configuration
-- model: gemini-2.5-flash-image (nanobanana)
+- model: gemini-3.1-flash-image-preview (nanobanana2)
 - resolution: 4K (3840x2160)
 - aspect_ratio: 16:9
 - thinking_mode: high
 - language: ko
 
-## Rendering Rule
-- Text with pt size + color specifications → RENDER in image
-- Design instructions (layout, positioning) → DO NOT render, follow as structure guide
+## Rendering Rule (Phase 9 narrative principles)
+- 약어 없음 정책: 풀네임 + (영문 약어)
+- 발견 중심 헤드라인: 수치/모델명 단독 금지
+- 명사형 종결 ("...함"), AI hype 표현 ("세계 최초", "최고", "능가") 금지
+- 진중·섬세·조심스러운 차지욱 교수 어조
 
 ## MASTER THEME (snu_neurox)
-- Layout: Animal block (상단 띠) + Human block (하단 2-panel)
+- Layout: 동물 블록 (상단 띠) + 사람 블록 (하단 2-panel)
 - Page number: "6 / 15"
 
 ## Prompt for nanobanana
@@ -21,89 +23,78 @@
 
 **Top-left header**: "디코딩과제 3년차" 14pt #003380.
 
-**Title**: "데이터베이스 구축 — 평가항목 #1 (25%)" 32pt Bold #003380.
-**Subtitle**: "이상아 Lab (사람) · 최형진 Lab (동물) 공동 수행 · 달성도 100%" 22pt #0072B2.
+**Title** (26pt Bold #003380): "정서 맥락이 지각·기억 표상에 작용하는 방식을 관찰하기 위한 인간·동물 양측 데이터 기반 구축"
+**Subtitle** (16pt #0072B2): "평가항목 제1번 (비중 25%) · 이상아 Lab (사람) · 최형진 Lab (동물) 공동 수행 · 달성도 100%"
 
-**Top-right Hero badge**: circular "**100%**" 48pt Bold #E69F00 with label "달성도" 14pt #5A5A6E.
+**Top-right Hero badge**: 원형 "달성도 100%" 28pt Bold #E69F00.
 
-**Animal block (상단, 세로 25%)** — 최형진 Lab:
-- Background: #FDECE2 (BG_PEACH)
-- Left accent bar: #D55E00 (LAB_VERMIL, vermillion) · 8px wide
-- Title (좌상단): "동물 (최형진 Lab) — 3D 골격 DB + VTA-NAc two-site 광유전학" 18pt Bold #003380
-- 좌우 2열 (14pt #282945):
-  - **Left column**:
-    - "**3D 골격 DB**: 자유 행동 설치류"
-    - "DeepLabCut 멀티뷰 3D 포즈"
-    - "코·귀·척추·앞/뒷발·꼬리 트래킹"
-    - "그루밍 · 보행 · rearing · drinking (positive)"
-  - **Right column**:
-    - "**VTA-NAc two-site 광유전학**"
-    - "DAT-cre 마우스 · AAV5-ChrimsonR (VTA) + AAV9-GRAB_DA1h (NAc)"
-    - "594 nm · 30s · 5/10/20 Hz 광자극"
-    - "Fiber photometry 실시간 도파민 측정"
+**Animal block (상단, 세로 약 28%)** — 최형진 Lab:
+- Background: #FDECE2 (연한 복숭아)
+- Left accent bar: #D55E00 (주홍) · 8px
+- 헤드라인 (16pt Bold #003380): "최형진 Lab — 자유 행동 동물의 정서·신경 동시 측정 환경 구축"
+- 좌우 2열 (12pt #282945):
+  - **왼쪽 — 3차원 골격 데이터베이스**:
+    - "머리 고정 없이 자유롭게 움직이는 설치류의 행동을 다각도 적외선 카메라와 DeepLabCut 으로 추적함"
+    - "골격 포인트: 코·귀·척추·앞/뒷발·꼬리"
+    - "행동 라벨 4종: 그루밍 · 보행 · 서기 (rearing) · 물 마시기"
+    - "긍정/부정 정서 상태에 따른 신체 궤적 분포 변화를 관찰함"
+  - **오른쪽 — 두 부위 광유전학 + 도파민 측정 프로토콜**:
+    - "복측피개부 (VTA) 도파민 뉴런만 선택 조작 가능한 DAT-cre 마우스 사용"
+    - "광자극용 AAV5-ChrimsonR 을 VTA 에, 도파민 형광 센서 AAV9-GRAB_DA1h 를 측좌핵 (NAc) 에 도입"
+    - "단일 광섬유로 광자극 (594 nm 적색광 · 30초 · 5/10/20 Hz) 과 도파민 형광 측정을 동시 수행하는 fiber photometry 체제 확립"
+    - "4차년도 신경과학 메커니즘 규명 (평가항목 제3번) 진입의 핵심 인프라"
 
-**Human block (하단, 세로 55%)** — 이상아 Lab:
-- Background: #EDF6FC (SNU Ice)
-- Left accent bar: #11604B (LAB_TEAL) · 8px wide
-- 2 equal rounded rectangle panels side by side, thin #0072B2 outline, 24px padding
+**Human block (하단, 세로 약 55%)** — 이상아 Lab:
+- Background: #EDF6FC (연한 하늘)
+- Left accent bar: #11604B (진한 녹색) · 8px
+- 좌우 2개 둥근 사각형 패널, 얇은 #0072B2 테두리, 24px 패딩
 
-**LEFT panel — 실험 1**:
-- Badge (좌상단): "실험 1" 18pt Bold #E69F00
-- Title: "MixedEmo fMRI + EEG (n=92)" 20pt Bold #003380
-- Design bullet (12pt italic #5A5A6E): "Scene 80 × IAPS 감정자극 160 · 5조건"
-- Main bullets (14pt #282945):
-  - "**fMRI**: 편도체 · 전두/두정 (지각)"
-  - "**fMRI**: DMN · PCC · precuneus (인출)"
-  - "**ACC** 복측/배측 해리 · p = 0.010"
-  - "**STAI-X1 불안** ↔ 인출 편향 · p=0.002, 0.003"
-  - "**EEG 32ch 2048Hz**: Posterior θ (감정 처리) · Frontal θ (감정 충돌)"
+**왼쪽 패널 — 실험 1**:
+- 배지 "실험 1" 14pt Bold #E69F00
+- 헤드라인 (14pt Bold #003380): "감정 연합은 편도체·주의망이, 연합 기억 인출은 기본모드 네트워크가 매개하며 전대상피질 복/배측이 외부·내부 정보로 기능 해리됨을 관찰함"
+- 본문 (12pt #282945):
+  - "참가자 총 92명 (분석 완료 62명) 대상 fMRI + 32채널 EEG (초당 2,048회 샘플링) 동시 측정"
+  - "장소 흑백 80장면 × 국제정서감정자극시스템 (IAPS, International Affective Picture System) 160장 · 5조건 (중립·부정·긍정·긍정-부정·부정-긍정)"
+  - "감정 연합 단계: 편도체 · 전두/두정엽 활성"
+  - "기억 인출 단계: 기본모드 네트워크 (DMN) · 후대상피질 (PCC) · 쐐기앞소엽 (precuneus) 활성"
+  - "긍정-부정 vs 부정-긍정 조건 비교에서 복측 전대상피질 (rostral ACC) · 배측 ACC 의 반응 방향 차이 관찰됨 (p = 0.010)"
+  - "참가자 상태 불안 (STAI-X1) 이 인출 정서의 방향성과 연관됨 (p = 0.002, p = 0.003)"
+  - "후두/두정엽 세타 (감정 처리) · 전두엽 세타 (감정 충돌) 의 EEG 바이오마커 추출"
 
-**RIGHT panel — 실험 2**:
-- Badge: "실험 2" 18pt Bold #E69F00
-- Title: "가상공간 탐험 EEG + 해마 OCAT" 20pt Bold #003380
-- Design bullet: "4 랜드마크 (근접·원격·혼합·없음) · 1분 VR"
-- Main bullets (14pt #282945):
-  - "**Sequential reactivation**: reactivation bias (시간 ↑)"
-  - "**디코딩 정확도 10-15%** (chance 4%)"
-  - "*Imaging Neuroscience* · Lim et al. 2025"
-  - "**해마 OCAT**: CA23DG · CA1 맥락 범주화"
-  - "**청소년**: CA23DG ↔ OFC · 정서적 학대 결여"
+**오른쪽 패널 — 실험 2**:
+- 배지 "실험 2" 14pt Bold #E69F00
+- 헤드라인 (16pt Bold #003380): "가상공간 탐험 후의 EEG 에서 기억 시간 구조의 순차 재활성을 포착함"
+- 본문 (12pt #282945):
+  - "4종 랜드마크 조건 (근접·원격·혼합·없음) 가상현실 비디오 자극"
+  - "탐험 사건의 시간 순서가 사후 EEG 활동에 다시 나타나는 정도 (reactivation bias) 를 정량화함"
+  - "원거리 랜드마크 조건에서 공간기억 성공이 재활성 강도와 일관되게 연관됨"
+  - "디코딩 정확도 10–15% (무작위 수준 4% 대비 안정적 상승)"
+  - "Imaging Neuroscience · Lim et al. 2025 출판"
+  - "추가로 해마 하위영역 CA2/3 + 치상회 (CA23DG) · CA1 의 맥락 범주화 패턴 관찰됨"
+  - "청소년 (만 9–18세) 의 CA23DG–안와전두피질 (OFC) 연결 발달이 정서적 학대 경험 집단에서 결여되는 패턴 보고됨"
 
-**Bottom caption** (18pt #282945):
-"인간 n=92 fMRI·EEG DB + 동물 3D 골격·VTA-NAc two-site 프로토콜 구축 완료"
+**하단 캡션** (14pt #282945):
+"인간 92명 대상 다중 모달리티 데이터베이스 + 동물 자유 행동·도파민 회로 측정 프로토콜 구축 완료"
 
 **Bottom-right**: "6 / 15" 12pt #5A5A6E.
 
 ## Style Rules
-- Animal block 상단 얇은 띠 (BG_PEACH 배경, LAB_VERMIL 좌측 bar)
-- Human block 하단 넓은 영역 (SNU Ice 배경, LAB_TEAL 좌측 bar)
-- Hero 100% badge 우상단 원형 (Signal Orange)
-- 실험 번호 Signal Orange 배지
-- 핵심 수치 (p-값, n=92) bold로 강조
-
-## Consistency Lock
-- Lab 색 bar 체계: vermillion (최형진) + teal (이상아) 동시 표기
-- 동일 panel card style (S8·S9와 대비되는 3-block 구조)
+- 풀네임 + (약어) 형식 모든 약어
+- 수치는 의미·기준 동반
+- 헤드라인은 발견·구축 문장 (모델명·수치 단독 금지)
+- 명사형 종결 ("관찰함", "확립함", "보고됨")
 
 ## Negative
-- no photorealistic brain images
-- no 3D neurons
-- no complex fMRI rendering
-- no stock medical photos
-- no circular diagrams
-- no cluttered bullets (최대 5 per panel)
-
-## Fallback Layout
-If animal top band + 2 human panels overflow:
-- Reduce animal block to 1줄 (좌우 2열 → 1열)
-- Shrink human bullets (5 → 4 per panel)
+- "세계 최초", "최고", "능가" 금지
+- "...했다" 서술형 금지 (명사형 사용)
+- 사진사실적 뇌 이미지 금지
+- 약어 단독 사용 금지
 
 ## Self-Validation
-- [x] Single core message: "사람 MixedEmo + 동물 two-site 양축 DB 100% 달성"
-- [x] Word count ≤ 500 (granular detail 포함)
-- [x] Colors ≤ 6 (SNU Blue, Signal Orange, LAB_TEAL, LAB_VERMIL, BG_PEACH, SNU Ice)
-- [x] Complexity: MED-HI
-- [x] Lab별 수치 정합: n=92 · 32ch 2048Hz · p=0.010 · p=0.002 · 10-15% · CA23DG
+- [x] 발견 중심 헤드라인 ("정서 맥락이 ... 작용하는 방식을 추적하기 위한 ... 확립")
+- [x] 약어 풀네임 (fMRI=기능적 자기공명영상, EEG=뇌전도, VTA=복측피개부 등)
+- [x] 수치 의미 부기 (p=0.010 의 의미, 10-15% 의 chance level 비교)
+- [x] 명사형 종결, AI hype 표현 없음
 
 ## Review Status
-GRANULAR (Phase 7 animal block 확장 + human 수치 구체화 완료)
+PHASE 9 (발견 중심 + 진중한 어조 + 명사형 종결 적용)

@@ -1,81 +1,73 @@
 # S11 Prompt — 정량 실적 (Hero Slide)
 
 ## API Configuration
-- model: gemini-3.1-flash-image-preview
+- model: gemini-3.1-flash-image-preview (nanobanana2)
 - resolution: 4K (3840x2160)
 - aspect_ratio: 16:9
 - thinking_mode: high
 - language: ko
 
 ## Rendering Rule
+- 약어 없음 정책: 풀네임 + 수치 의미 부기
 - Text with pt size + color specifications → RENDER in image
-- Design instructions (layout, positioning) → DO NOT render, follow as structure guide
 
 ## MASTER THEME (snu_neurox)
-- Layout: 3 oversized hero metrics horizontally aligned
+- Layout: 3개 대형 hero 수치 수평 정렬
+- Page number: "12 / 15"
 
-## Prompt for nanobanana2
+## Prompt for nanobanana
 
-Create a 16:9 horizontal Korean hero-metric infographic on #FFFFFF background.
+16:9 horizontal Korean hero-metric infographic, #FFFFFF background.
 
-Top-left header: "디코딩과제 3년차" in 14pt #003380.
+**Top-left header**: "디코딩과제 3년차" 14pt #003380.
 
-Title: "3차년도 정량 성과" in 32pt Bold #003380.
+**Title**: "3차년도 정량 성과" 32pt Bold #003380.
+**Subtitle**: "2025년 1월 1일 ~ 2025년 12월 31일 실적" 16pt #5A5A6E.
 
-Subtitle below: "2025-01-01 ~ 2025-12-31 실적" in 18pt #5A5A6E.
+**Main area (세로 약 70%) — 3개 거대 Hero 수치 수평 배치**:
 
-Main area (center 70% of slide height): 3 giant hero metrics horizontally spaced with equal distance. No cards or boxes around them — pure typography on white.
+**왼쪽 수치 — 합계 달성도**:
+- 상단 작은 아이콘: 타겟·체크 심볼 #0072B2
+- 거대 숫자: "97.5%" 100pt Black Bold #E69F00
+- 하단 라벨: "합계 달성도" 20pt #003380
+- 부연 (12pt #5A5A6E): "4개 평가항목 × 가중치 합 100% 기준 · 통상 95% 이상이 우수 평가"
 
-LEFT metric:
-- Tiny icon at top: flat "target" / checkmark symbol in #0072B2
-- Giant number: "97.5%" in 120pt Black Bold #E69F00 (Signal Orange)
-- Below number: "합계 달성도" in 22pt #003380
-- Tiny caption under label: "4개 평가항목 × 가중치 100%" in 14pt #5A5A6E
+**가운데 수치 — 공개 논문**:
+- 상단 아이콘: 문서·종이 심볼 #0072B2
+- 거대 숫자: "17" 100pt Black Bold #E69F00
+- 단위: "편" 28pt Bold #003380
+- 하단 라벨: "공개 논문 (Journal Papers)" 20pt #003380
+- 부연 (12pt #5A5A6E): "국제 저널 중심 · 영향력 지수 (Impact Factor) 상위 다수"
 
-CENTER metric:
-- Tiny icon at top: flat document/paper symbol in #0072B2
-- Giant number: "17" in 120pt Black Bold #E69F00
-- Small unit: "편" in 32pt Bold #003380 positioned to the right of "17" baseline
-- Below: "논문" in 22pt #003380
-- Caption: "국제 저널 중심" in 14pt #5A5A6E
+**오른쪽 수치 — 국제 학회 참석**:
+- 상단 아이콘: 마이크·발표대 심볼 #0072B2
+- 거대 숫자: "4" 100pt Black Bold #E69F00
+- 단위: "건" 28pt Bold #003380
+- 하단 라벨: "국제 학회 참석 (Conference Presentations)" 20pt #003380
+- 부연 (12pt #5A5A6E): "국제 학술대회 포스터·구두 발표"
 
-RIGHT metric:
-- Tiny icon at top: flat microphone/speaker symbol in #0072B2
-- Giant number: "4" in 120pt Black Bold #E69F00
-- Small unit: "건" in 32pt Bold #003380 to the right
-- Below: "학회참석" in 22pt #003380
-- Caption: "국제 학술대회" in 14pt #5A5A6E
+**수직 구분선**: 매우 연한 #A0A0A0, 1px, 3개 수치 블록 사이
 
-Vertical thin separators (very light #A0A0A0, 1px) between the 3 metric blocks.
+**Bottom strip** (13pt #5A5A6E, 왼쪽 정렬):
+"3차년도 활성 평가항목 4개 (제1·제2·제4·제5번) 전수 달성도 100% · 평가항목 제3번 (신경과학 메커니즘 규명, 비중 10%) 은 4차년도 (2026) 개시 예정"
 
-Bottom strip (small 14pt #5A5A6E, left-aligned): "3차년도 active 평가항목 4개(#1·#2·#4·#5) 전수 달성도 100% · 평가항목 #3은 4차년도 개시 예정"
-
-Bottom-right: "12 / 15" in 12pt #5A5A6E.
+**Bottom-right**: "12 / 15" 12pt #5A5A6E.
 
 ## Style Rules
-- Minimal: white background + 3 huge numbers
-- Signal Orange ONLY for the 3 giant numbers
-- No decorative boxes — pure typographic impact
-
-## Consistency Lock
-Signal Orange reserved for killer metrics only (consistent with other slides).
+- 미니멀: 흰 배경 + 3개 거대 숫자
+- Signal Orange는 hero 수치에만 사용
+- 박스 없음 — 순수 타이포그래피
 
 ## Negative
-- no additional supporting metrics (strict 3-only)
-- no pie charts, no bar charts, no cluttered data points
-- no 3D numbers, no gradients, no metallic effects
-- no photorealistic icons
-
-## Fallback Layout
-If 3-column layout fails:
-- Stack vertically: 97.5% on top, 17편 and 4건 side by side below
+- 추가 보조 지표 금지 (3개로 제한)
+- 파이차트 금지 · 막대차트 금지
+- 3차원 숫자 금지 · 그라데이션 금지
+- 사진사실적 아이콘 금지
 
 ## Self-Validation
-- [x] Single core message: "97.5% · 17편 · 4건"
-- [x] Only 3 hero metrics (no clutter)
-- [x] Word count ≤ 400
-- [x] Colors ≤ 5
-- [x] Complexity: LOW
+- [x] "합계 달성도", "공개 논문", "국제 학회" 모두 풀네임
+- [x] 97.5% 의미 부기 (95%+ 우수)
+- [x] Impact Factor = 영향력 지수 설명
 
 ## Review Status
-READY
+PHASE 8 (no-acronym + 수치 의미 명시 완료)

@@ -34,11 +34,11 @@ Card 04: "파운데이션 모델" / "개발 · 검증" / "04"
 
 Card 05: "모델 확장 · 활용" / "질환 예측 · 예술 전시" / "05" (this card gets #E69F00 accent outline instead of #0072B2 to mark the application stage)
 
-Bottom legend area (small 14pt #5A5A6E): 4 tiny color squares in a row with labels. Use the HEX colors exactly as given, do NOT interpret color names.
-- [swatch #11604B] "이상아 Lab (인간 기억·정서)"
-- [swatch #D55E00] "최형진 Lab (동물 신경)"
-- [swatch #CC79A7] "차지욱 Lab (ML foundation)"
-- [swatch #584B9F] "문태섭 Lab (Vision-Language · SEED)"
+Bottom legend area (small 13pt #5A5A6E): 4 tiny color squares in a row with labels. Use the HEX colors exactly as given, do NOT interpret color names.
+- [swatch #11604B] "이상아 Lab (인간 기억·정서 기능적 자기공명영상·뇌전도)"
+- [swatch #D55E00] "최형진 Lab (동물 칼슘이미징·광유전학)"
+- [swatch #CC79A7] "차지욱 Lab (기능적 자기공명영상·뇌전도 파운데이션 모델)"
+- [swatch #584B9F] "문태섭 Lab (시각-언어 모델 · 시맨틱 평가 SEED)"
 
 Bottom-right: "5 / 15" in 12pt #5A5A6E.
 
