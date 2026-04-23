@@ -10,45 +10,42 @@
 ## Rendering Rule
 - Text with pt size + color specifications → RENDER in image
 - Design instructions (layout, positioning) → DO NOT render, follow as structure guide
+- **렌더 절대 금지**: hex 색상 코드 (예 #D55E00) · pt 크기 표기 (예 14pt) · "Bold" 같은 스타일 마커 · 의미 없는 한글 음절 조합 — 모두 디자인 지시이므로 시각적으로 텍스트로 그리지 말 것
 
 ## MASTER THEME (snu_neurox)
 - Layout: 2x2 grid of cards with weight badges
 
 ## Prompt for nanobanana2
 
-Create a 16:9 horizontal Korean infographic on #FFFFFF background showing 3rd-year evaluation structure.
+Create a 16:9 horizontal Korean infographic on background showing 3rd-year evaluation structure.
 
-Top-left header: "디코딩과제 3년차" in 14pt #003380.
+Top-left header: "디코딩과제 3년차" in.
 
-Title at top-center: "3차년도 평가 구조" in 32pt Bold #003380.
+Title at top-center: "3차년도 평가 구조" in .
 
-Subtitle below title: "4개 평가항목 · 각 비중 25% · 합계 달성도 97.5%" in 22pt #0072B2.
+Subtitle below title: "4개 평가항목 · 각 비중 25% · 합계 달성도 97.5%" in.
 
-Main area (central 70% of slide): 2×2 grid of 4 rounded rectangle cards with equal sizes. Each card has #EDF6FC fill, thin #0072B2 outline, 24px padding.
+Main area (central 70% of slide): 2×2 grid of 4 rounded rectangle cards with equal sizes. Each card has fill, thin outline, padding.
 
 Top-left card (평가항목 제1번):
-- Top-left corner: "비중 25%" badge in 18pt Bold on circular #E69F00 background (white text inside)
-- Card center title: "뇌-환경 상호작용 데이터베이스 구축" in 20pt Bold #003380
-- Small subtitle: "평가항목 제1번 · 세부목표 1-1 (동물) + 1-2 (사람)" in 12pt #5A5A6E
+- Top-left corner: "비중 25%" badge in on circular background (white text inside)
+- Card center title: "뇌-환경 상호작용 데이터베이스 구축" in - Small subtitle: "평가항목 제1번 · 세부목표 1-1 (동물) + 1-2 (사람)" in
 
 Top-right card (평가항목 제2번):
 - "비중 25%" badge
-- Title: "기계학습 모델 개발 및 검증" in 20pt Bold #003380
-- Subtitle: "평가항목 제2번 · 세부목표 1-3 (행동-신경 통합) + 1-4 (모달리티 융합)" in 12pt #5A5A6E
+- Title: "기계학습 모델 개발 및 검증" in - Subtitle: "평가항목 제2번 · 세부목표 1-3 (행동-신경 통합) + 1-4 (모달리티 융합)" in
 
 Bottom-left card (평가항목 제4번):
 - "비중 25%" badge
-- Title: "뇌영상 파운데이션 (Foundation) 모델" in 20pt Bold #003380
-- Subtitle: "평가항목 제4번 · 세부목표 2-1 (동일종) + 2-2 (사람 다중 모달)" in 12pt #5A5A6E
+- Title: "뇌영상 파운데이션 (Foundation) 모델" in - Subtitle: "평가항목 제4번 · 세부목표 2-1 (동일종) + 2-2 (사람 다중 모달)" in
 
 Bottom-right card (평가항목 제5번):
 - "비중 25%" badge
-- Title: "다중 모달리티 통합 모델" in 20pt Bold #003380
-- Subtitle: "평가항목 제5번 · 세부목표 2-3 (통합 디코더)" in 12pt #5A5A6E
+- Title: "다중 모달리티 통합 모델" in - Subtitle: "평가항목 제5번 · 세부목표 2-3 (통합 디코더)" in
 
-Bottom annotation (small 11pt #5A5A6E, left-aligned): "※ 5개년 기준 평가항목 6개 (제1·2·3·4·5·6번) 중 3차년도 활성 4개 (제1·2·4·5번) 에 비중 100% 재분배 · 평가항목 제3번 '신경과학 메커니즘 규명' (비중 10%) 은 4차년도 (2026) 개시 예정"
+Bottom annotation (small, left-aligned): "※ 5개년 기준 평가항목 6개 (제1·2·3·4·5·6번) 중 3차년도 활성 4개 (제1·2·4·5번) 에 비중 100% 재분배 · 평가항목 제3번 '신경과학 메커니즘 규명' (비중 10%) 은 4차년도 (2026) 개시 예정"
 
-Bottom-right: "4 / 14" in 12pt #5A5A6E.
+Bottom-right: "4 / 14" in.
 
 ## Style Rules
 - Equal-sized cards in 2×2 grid

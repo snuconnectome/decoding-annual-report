@@ -11,37 +11,38 @@
 ## Rendering Rule
 - Text with pt size + color specifications → RENDER
 - Design instructions → DO NOT render
+- **렌더 절대 금지**: hex 색상 코드 (예 #D55E00) · pt 크기 표기 (예 14pt) · "Bold" 같은 스타일 마커 · 의미 없는 한글 음절 조합 — 모두 디자인 지시이므로 시각적으로 텍스트로 그리지 말 것
 
 ## MASTER THEME (snu_neurox)
 - Layout: horizontal timeline with diamond markers
 
 ## Prompt for nanobanana2
 
-Create a 16:9 horizontal Korean timeline infographic on #FFFFFF background for a 5-year R&D roadmap.
+Create a 16:9 horizontal Korean timeline infographic on background for a 5-year R&D roadmap.
 
-Top-left header: "디코딩과제 3년차" in 14pt #003380.
+Top-left header: "디코딩과제 3년차" in.
 
-Title at top-center: "5개년 연구개발 로드맵" in 32pt Bold #003380.
+Title at top-center: "5개년 연구개발 로드맵" in .
 
-Subtitle below title: "2023.07 ~ 2027.12 (54개월)" in 18pt #5A5A6E.
+Subtitle below title: "2023.07 ~ 2027.12 (54개월)" in.
 
-Center main area: one horizontal thin line in #003380 (the timeline axis) spanning 80% of slide width. On this line, place 5 evenly-spaced diamond markers, each 40×40 pixels.
+Center main area: one horizontal thin line in (the timeline axis) spanning 80% of slide width. On this line, place 5 evenly-spaced diamond markers, each 40×40 pixels.
 
-- Marker 1 (leftmost): #0072B2 Neural Teal, label above "1차년도 (2023.07-12)"
-- Marker 2: #0072B2, label above "2차년도 (2024)"
-- Marker 3 (CENTER, HIGHLIGHTED): #E69F00 Signal Orange, LARGER (60×60 pixels), with a small "현재" pill (#E69F00 fill, white text, 14pt Bold, 8px rounded) floating 8px above the marker. Label above: "3차년도 (2025)"
-- Marker 4: #0072B2, label above "4차년도 (2026)"
-- Marker 5 (rightmost): #0072B2, label above "5차년도 (2027)"
+- Marker 1 (leftmost): Neural Teal, label above "1차년도 (2023.07-12)"
+- Marker 2:, label above "2차년도 (2024)"
+- Marker 3 (CENTER, HIGHLIGHTED): Signal Orange, LARGER (60×60 pixels), with a small "현재" pill ( fill, white text, , rounded) floating above the marker. Label above: "3차년도 (2025)"
+- Marker 4:, label above "4차년도 (2026)"
+- Marker 5 (rightmost):, label above "5차년도 (2027)"
 
-Below each marker (approx 40px below the timeline axis), place a small rounded rectangle card with #EDF6FC fill, thin #0072B2 outline, containing:
+Below each marker (approx below the timeline axis), place a small rounded rectangle card with fill, thin outline, containing:
 
-Card 1: 예산 "3억원 (300,000천원)" in 16pt Bold #003380, below it "대규모 데이터 자동화 실험 환경 구축" in 12pt #282945
+Card 1: 예산 "3억원 (300,000천원)" in , below it "대규모 데이터 자동화 실험 환경 구축" in
 Card 2: "4.535억원 (453,500천원)" + "고정 환경 지각 데이터베이스"
-Card 3 (HIGHLIGHTED, outline #E69F00 instead of #0072B2): "4.535억원 (453,500천원)" + "변동 환경 데이터베이스 + 다중 모달리티 기계학습 모델"
+Card 3 (HIGHLIGHTED, outline instead of): "4.535억원 (453,500천원)" + "변동 환경 데이터베이스 + 다중 모달리티 기계학습 모델"
 Card 4: "6억원 (600,000천원)" + "BrainLife 플랫폼 데이터 공개 · 종간 사전학습"
 Card 5: "6억원 (600,000천원)" + "전이학습 검증 · 실험형 예술 전시"
 
-Bottom-right: "3 / 14" in 12pt #5A5A6E.
+Bottom-right: "3 / 14" in.
 
 ## Style Rules
 - Single horizontal axis line

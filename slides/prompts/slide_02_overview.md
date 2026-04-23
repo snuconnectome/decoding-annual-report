@@ -11,6 +11,7 @@
 ## Rendering Rule
 - Text with pt size + color specifications → RENDER in image
 - Design instructions (layout, positioning) → DO NOT render
+- **렌더 절대 금지**: hex 색상 코드 (예 #D55E00) · pt 크기 표기 (예 14pt) · "Bold" 같은 스타일 마커 · 의미 없는 한글 음절 조합 — 모두 디자인 지시이므로 시각적으로 텍스트로 그리지 말 것
 
 ## MASTER THEME (snu_neurox)
 - Background: #FFFFFF
@@ -19,24 +20,24 @@
 
 ## Prompt for nanobanana2
 
-16:9 horizontal Korean conceptual infographic, #FFFFFF background, 3-stage horizontal flow.
+16:9 horizontal Korean conceptual infographic, background, 3-stage horizontal flow.
 
-Top-left: "디코딩과제 3년차" 14pt #003380.
+Top-left: "디코딩과제 3년차".
 
-Title: "본 연구의 핵심 개념" 32pt Bold #003380 centered.
-Subtitle: "정서에 의해 맥락화된 지각의 디코딩" 22pt #0072B2.
+Title: "본 연구의 핵심 개념" centered.
+Subtitle: "정서에 의해 맥락화된 지각의 디코딩".
 
-Center 60%: 3 equal rounded rectangle cards horizontally spaced, #EDF6FC fill with thin #0072B2 outline. Each card has flat-line icon on top, Bold label 22pt #003380 middle, 18pt #282945 description bottom.
+Center 60%: 3 equal rounded rectangle cards horizontally spaced, fill with thin outline. Each card has flat-line icon on top, label middle, description bottom.
 
 Card 1 (eye+ear icon): "외부환경" / "시각·청각·복합 자극"
 Card 2 (brain icon): "뇌의 능동적 추론" / "불완전 감각 → 예측 → 내부 표상 갱신"
-Card 3 (heart icon in #0072B2): "정서에 의한 맥락화" / "신체 반응 유도"
+Card 3 (heart icon in): "정서에 의한 맥락화" / "신체 반응 유도"
 
 Between cards: straight horizontal arrows pointing right (no curves, no diagonals).
 
-Bottom caption centered 18pt #282945: "기존 디코딩은 수동적 지각에 국한 → 본 연구는 능동적 추론과 정서 맥락을 반영"
+Bottom caption centered: "기존 디코딩은 수동적 지각에 국한 → 본 연구는 능동적 추론과 정서 맥락을 반영"
 
-Bottom-right: "2 / 14" 12pt #5A5A6E.
+Bottom-right: "2 / 14".
 
 ## Style Rules
 - Background white, three equally-sized cards
