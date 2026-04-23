@@ -35,18 +35,18 @@
 - 아이콘 상단: 칼슘 세포 + 영화 프레임
 - 헤드라인 14pt Bold #003380: "신경 반응 이질성을 대비 학습 신호로 활용함"
 - 11pt #282945 (3 bullet):
-  - "POYO-SSL · Allen Brain Observatory 칼슘이미징"
-  - "SST · VIP · PVALB · NTSR1 세포 군집 우선 반영"
-  - "무학습 대비 +12~13%p · SSIM 0.593 · 데이터 효율 약 2배"
+  - "• POYO-SSL · Allen Brain Observatory 칼슘이미징"
+  - "• SST · VIP · PVALB · NTSR1 세포 군집 우선 반영"
+  - "• 무학습 대비 +12~13%p · SSIM 0.593 · 데이터 효율 약 2배"
 
 **오른쪽 패널 — 사람 (차지욱 Lab)**:
 - 배경 #EDF6FC, 좌측 bar #CC79A7
 - 아이콘 상단: 뇌 + 파형 스택
 - 헤드라인 14pt Bold #003380: "대규모 뇌영상·뇌전도 사전학습으로 범용 표상 확보함"
 - 11pt #282945 (3 bullet):
-  - "SwiFT — 88억 param · UKB + HCP + ABCD 약 5만명"
-  - "DIVER-1 — iEEG 5,300시간 + EEG 54,000시간 · 17,700명"
-  - "Neuroprobe 벤치마크 15 과제에서 일관된 성능 · 학습 반복 수가 모델 크기보다 성능 기여가 큰 경향 관찰"
+  - "• SwiFT — 88억 param · UKB + HCP + ABCD 약 5만명"
+  - "• DIVER-1 — iEEG 5,300시간 + EEG 54,000시간 · 17,700명"
+  - "• Neuroprobe 벤치마크 15 과제에서 일관된 성능 · 학습 반복 수가 모델 크기보다 성능 기여가 큰 경향 관찰"
 
 **하단 통합 띠 (세로 약 22%)** — 배경 #003380:
 - **중앙 diagram (흰색)**: 가로 정렬 — sMRI · fMRI · iEEG/EEG · 행동 4개 flat line 아이콘 (동일 간격) · 우측에 단일 → 화살표 1개 · 우측 끝 출력 박스 "종간 파운데이션"

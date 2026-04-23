@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Phase 10.1 — 불릿 포인트 추가 + PDF 버전 파일명 (2026-04-23 말)
+
+사용자 피드백 2건:
+1. `presentation.pdf` 만으로는 최신 여부 확인 불가 → 버전 포함 파일명 병행
+2. 문장 시작점을 시각적으로 구분하는 검정 불릿 (•) 필요
+
+조치:
+- 7개 핵심 슬라이드 (S6·S7A·S7B·S8·S9·S10·S13) 에 불릿 51개 추가 (Python 스크립트 일괄)
+- 15 슬라이드 재렌더 (nanobanana2 · 15/15 attempt 1 성공)
+- PDF 병행 빌드: `slides/build/presentation.pdf` (항상 최신) + `slides/build/presentation-v0.11.0-bulleted.pdf` (버전 표기본)
+
 ### Phase 10 — 텍스트 축약 + 시각 요소 대체 + 3회 리뷰 (2026-04-23 말)
 
 사용자 피드백: Phase 9.1 의 텍스트 밀도 과다. 연구 설명부 30~50% 축소 + 아이콘·도식 대체.

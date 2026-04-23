@@ -1,114 +1,114 @@
 {
-  "started": "2026-04-23T02:52:48.083521Z",
+  "started": "2026-04-23T03:19:04.645011Z",
   "model": "gemini-3.1-flash-image-preview",
   "aspect_ratio": "16:9",
   "generated": [
     {
       "source": "slide_01_title.md",
       "output": "slide_01_title.png",
-      "detail": "attempt 1: 593270 bytes",
-      "seconds": 25.6,
-      "timestamp": "2026-04-23T02:53:13.698114Z"
+      "detail": "attempt 1: 604462 bytes",
+      "seconds": 14.8,
+      "timestamp": "2026-04-23T03:19:19.397679Z"
     },
     {
       "source": "slide_02_overview.md",
       "output": "slide_02_overview.png",
-      "detail": "attempt 1: 421522 bytes",
-      "seconds": 21.0,
-      "timestamp": "2026-04-23T02:53:34.653231Z"
+      "detail": "attempt 1: 412685 bytes",
+      "seconds": 32.6,
+      "timestamp": "2026-04-23T03:19:52.029061Z"
     },
     {
       "source": "slide_03_roadmap.md",
       "output": "slide_03_roadmap.png",
-      "detail": "attempt 1: 432589 bytes",
-      "seconds": 17.4,
-      "timestamp": "2026-04-23T02:53:52.039660Z"
+      "detail": "attempt 1: 442179 bytes",
+      "seconds": 20.7,
+      "timestamp": "2026-04-23T03:20:12.734337Z"
     },
     {
       "source": "slide_04_year3-goals.md",
       "output": "slide_04_year3-goals.png",
-      "detail": "attempt 1: 609210 bytes",
-      "seconds": 22.4,
-      "timestamp": "2026-04-23T02:54:14.409555Z"
+      "detail": "attempt 1: 557247 bytes",
+      "seconds": 20.3,
+      "timestamp": "2026-04-23T03:20:32.985855Z"
     },
     {
       "source": "slide_05_strategy.md",
       "output": "slide_05_strategy.png",
-      "detail": "attempt 1: 491116 bytes",
-      "seconds": 32.8,
-      "timestamp": "2026-04-23T02:54:47.252138Z"
+      "detail": "attempt 1: 453583 bytes",
+      "seconds": 25.5,
+      "timestamp": "2026-04-23T03:20:58.517542Z"
     },
     {
       "source": "slide_06_db-construction.md",
       "output": "slide_06_db-construction.png",
-      "detail": "attempt 1: 789839 bytes",
-      "seconds": 29.7,
-      "timestamp": "2026-04-23T02:55:16.934772Z"
+      "detail": "attempt 1: 791365 bytes",
+      "seconds": 21.9,
+      "timestamp": "2026-04-23T03:21:20.450063Z"
     },
     {
       "source": "slide_07a_cha-fmri.md",
       "output": "slide_07a_cha-fmri.png",
-      "detail": "attempt 1: 798026 bytes",
-      "seconds": 18.0,
-      "timestamp": "2026-04-23T02:55:34.931626Z"
+      "detail": "attempt 1: 811540 bytes",
+      "seconds": 20.1,
+      "timestamp": "2026-04-23T03:21:40.573297Z"
     },
     {
       "source": "slide_07b_cha-clinical.md",
       "output": "slide_07b_cha-clinical.png",
-      "detail": "attempt 1: 824905 bytes",
-      "seconds": 15.6,
-      "timestamp": "2026-04-23T02:55:50.493524Z"
+      "detail": "attempt 1: 828634 bytes",
+      "seconds": 21.9,
+      "timestamp": "2026-04-23T03:22:02.450016Z"
     },
     {
       "source": "slide_08_multimodal-seed.md",
       "output": "slide_08_multimodal-seed.png",
-      "detail": "attempt 1: 737751 bytes",
-      "seconds": 17.0,
-      "timestamp": "2026-04-23T02:56:07.522856Z"
+      "detail": "attempt 1: 739438 bytes",
+      "seconds": 20.4,
+      "timestamp": "2026-04-23T03:22:22.843324Z"
     },
     {
       "source": "slide_09_cross-species.md",
       "output": "slide_09_cross-species.png",
-      "detail": "attempt 1: 756736 bytes",
-      "seconds": 38.1,
-      "timestamp": "2026-04-23T02:56:45.615175Z"
+      "detail": "attempt 1: 777524 bytes",
+      "seconds": 18.3,
+      "timestamp": "2026-04-23T03:22:41.158282Z"
     },
     {
       "source": "slide_10_extensions-quantum.md",
       "output": "slide_10_extensions-quantum.png",
-      "detail": "attempt 1: 670757 bytes",
-      "seconds": 16.1,
-      "timestamp": "2026-04-23T02:57:01.706865Z"
+      "detail": "attempt 1: 700568 bytes",
+      "seconds": 25.9,
+      "timestamp": "2026-04-23T03:23:07.011609Z"
     },
     {
       "source": "slide_11_quantitative-results.md",
       "output": "slide_11_quantitative-results.png",
-      "detail": "attempt 1: 443898 bytes",
-      "seconds": 15.9,
-      "timestamp": "2026-04-23T02:57:17.641254Z"
+      "detail": "attempt 1: 446553 bytes",
+      "seconds": 16.5,
+      "timestamp": "2026-04-23T03:23:23.547060Z"
     },
     {
       "source": "slide_12_year4-plan.md",
       "output": "slide_12_year4-plan.png",
-      "detail": "attempt 1: 607789 bytes",
-      "seconds": 18.0,
-      "timestamp": "2026-04-23T02:57:35.681639Z"
+      "detail": "attempt 1: 604422 bytes",
+      "seconds": 18.9,
+      "timestamp": "2026-04-23T03:23:42.468697Z"
     },
     {
       "source": "slide_13_expected-impact.md",
       "output": "slide_13_expected-impact.png",
-      "detail": "attempt 1: 612567 bytes",
-      "seconds": 23.2,
-      "timestamp": "2026-04-23T02:57:58.853701Z"
+      "detail": "attempt 1: 596218 bytes",
+      "seconds": 17.3,
+      "timestamp": "2026-04-23T03:23:59.755344Z"
     },
     {
       "source": "slide_14_wrap-up.md",
       "output": "slide_14_wrap-up.png",
-      "detail": "attempt 1: 506846 bytes",
-      "seconds": 15.7,
-      "timestamp": "2026-04-23T02:58:14.560113Z"
+      "detail": "attempt 1: 494393 bytes",
+      "seconds": 16.0,
+      "timestamp": "2026-04-23T03:24:15.792265Z"
     }
   ],
   "failed": [],
-  "completed": "2026-04-23T02:58:14.560132Z"
+  "completed": "2026-04-23T03:24:15.792279Z"
 }

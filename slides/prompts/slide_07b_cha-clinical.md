@@ -28,21 +28,21 @@
 - 헤드라인 16pt Bold #003380: "전기생리 사전학습의 멱법칙 스케일링과, 학습 반복 수 > 모델 크기 관계 관찰함"
 - **가로 diagram (전폭 60%)**: **DIVER 3-Phase 흐름** — 3 개 연결 블록 (①사전학습 / ②정렬 / ③개인화) · 각 블록에 작은 아이콘 (전극 / 얼굴-뇌파 연결 / 사용자 피드백)
 - 우측 3 bullets 11pt #282945:
-  - "1,300만 param 모델이 BrainBERT (43M) · PopT (63M) 과 유사·개선 성능을 보임"
-  - "컴퓨팅 1e20 FLOPs (GPT-1 대비 2배 · 전기생리 선행 최대 규모 대비 77배)"
-  - "Neuroprobe 15 과제 · FACED · PhysioNet-MI · MentalArithmetic 일관 결과 · 학습 반복 수 (epochs) > params · ICLR 2026 심사"
+  - "• 1,300만 param 모델이 BrainBERT (43M) · PopT (63M) 과 유사·개선 성능을 보임"
+  - "• 컴퓨팅 1e20 FLOPs (GPT-1 대비 2배 · 전기생리 선행 최대 규모 대비 77배)"
+  - "• Neuroprobe 15 과제 · FACED · PhysioNet-MI · MentalArithmetic 일관 결과 · 학습 반복 수 (epochs) > params · ICLR 2026 심사"
 
 **Row 2 — 교차 모달 정렬 (세로 약 24%)**:
 - 배경 #EDF6FC, 마커 ② 18pt Bold #003380
 - 헤드라인 14pt Bold #003380: "언어 이해 뇌 활동의 의미 통합을 인공지능 정렬 성능으로 재현함"
 - **좌 반쪽 — Language-Brain Alignment**:
   - 아이콘: 말풍선 + 뇌
-  - "**+14.4%p** 정확도 개선 · 선행 모델 (Antonello et al.) 대비 개선"
-  - "Damasio 수렴-발산 영역 이론이 정량 재현됨 · ICLR 2026 심사"
+  - "• **+14.4%p** 정확도 개선 · 선행 모델 (Antonello et al.) 대비 개선"
+  - "• Damasio 수렴-발산 영역 이론이 정량 재현됨 · ICLR 2026 심사"
 - **우 반쪽 — POYO-SSL (동물 칼슘)**:
   - 아이콘: 칼슘 세포 + 영화 프레임
-  - "**+12~13%p** 성능 향상 · SSIM 0.593 을 관찰함"
-  - "Allen Brain Observatory · 이질 세포 군집을 학습 신호로 활용함 · ICLR 2026 심사"
+  - "• **+12~13%p** 성능 향상 · SSIM 0.593 을 관찰함"
+  - "• Allen Brain Observatory · 이질 세포 군집을 학습 신호로 활용함 · ICLR 2026 심사"
 
 **Row 3 — 임상 · 생성 응용 (세로 약 22%)**:
 - 배경 #EDF6FC, 마커 ③ 18pt Bold #003380

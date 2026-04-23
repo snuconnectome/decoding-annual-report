@@ -31,10 +31,10 @@
 **3 지표 카드** (#EDF6FC, #56B4E9 테두리, 각 카드 중앙 아이콘):
 - **카드 1 — Object F1**:
   - 아이콘 중앙: 객체 탐지 경계박스 (사각 테두리 + 라벨)
-  - "핵심 객체 존재 확인 · 객체 탐지 모델 precision/recall"
+  - "• 핵심 객체 존재 확인 · 객체 탐지 모델 precision/recall"
 - **카드 2 — Caption Similarity**:
   - 아이콘 중앙: 말풍선 + 벡터 화살표
-  - "이미지 캡션 임베딩 유사도 · 핵심 의미만 통과"
+  - "• 이미지 캡션 임베딩 유사도 · 핵심 의미만 통과"
 - **카드 3 — SEED (통합)**:
   - 아이콘 중앙: 3 원 교집합 벤다이어그램 (Object · Caption · Perception) · 중앙 교집합에 "SEED" 라벨
   - Signal Orange 강조 "Object F1 + Cap-Sim + EffNet 평균 · 상호 보완"
@@ -51,16 +51,16 @@
 - 아이콘: 뇌 → 화살표 → 언어 상자
 - 제목 흰색 16pt Bold: "뇌영상-언어 임베딩 정렬 시도"
 - 흰색 10pt:
-  - "LLaVA-Next-Interleave · sMRI + DTI + 휴지기 fMRI 의미 정렬"
-  - "UKB 42,794명 성별 분류 · CLIP-ViT 0.94 · LLaVA 0.787 · BLIP-2 0.779"
-  - "프롬프트 전략: 단순 질의응답 > 연쇄 추론 (Chain-of-Thought, CoT) · 0.787 vs 0.732"
+  - "• LLaVA-Next-Interleave · sMRI + DTI + 휴지기 fMRI 의미 정렬"
+  - "• UKB 42,794명 성별 분류 · CLIP-ViT 0.94 · LLaVA 0.787 · BLIP-2 0.779"
+  - "• 프롬프트 전략: 단순 질의응답 > 연쇄 추론 (Chain-of-Thought, CoT) · 0.787 vs 0.732"
 
 **오른쪽 — SEED 메타평가 결과**:
 - 아이콘: 비교 막대 차트 (SEED vs 기존 8개 지표)
 - 제목 흰색 16pt Bold: "기존 지표의 인간 판단 괴리를 수치로 드러냄"
 - 흰색 10pt:
-  - "SEED 가 PixCorr · SSIM · CLIP · EffNet 등 기존 8 지표 대비 정합 개선"
-  - "MindEye2 검색 평가 98%+ 는 의미 근접 오차·세부 혼동을 가림 · ICLR 2026 심사"
+  - "• SEED 가 PixCorr · SSIM · CLIP · EffNet 등 기존 8 지표 대비 정합 개선"
+  - "• MindEye2 검색 평가 98%+ 는 의미 근접 오차·세부 혼동을 가림 · ICLR 2026 심사"
 
 **Bottom-right**: "9 / 15" 12pt #5A5A6E.
 
