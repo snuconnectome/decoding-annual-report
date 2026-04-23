@@ -16,8 +16,8 @@
 
 **Header**: "디코딩과제 3년차" 14pt #003380.
 
-**Title (26pt Bold #003380)**: "두피·두개내 뇌전도 사전학습의 정량적 스케일링 경향 보고 — 임상·생성 응용 확장"
-**Subtitle (16pt #0072B2)**: "차지욱 Lab ② · 평가항목 제2·제4번 · 달성도 100%"
+**Title (32pt Bold #003380)**: "차지욱 Lab ② — EEG/iEEG 파운데이션 + 임상·생성 응용"
+**Subtitle (18pt #0072B2)**: "평가항목 제2·제4번 · 달성도 100% · 전기생리 사전학습의 멱법칙 스케일링 경향 보고"
 
 **Left accent bar**: #CC79A7 · 8px.
 
@@ -47,18 +47,18 @@
 - 헤드라인 14pt Bold #003380: "언어 이해 뇌 활동의 의미 통합 이론을 인공지능 정렬 성능으로 재현"
 - 2 subsection:
   - 좌: "**Language-Brain Alignment** — 선행 모델 (Antonello et al.) 대비 정확도 14.4%p 개선을 관찰함. 상대 오차 차분 (RED, Relative Error Difference) + 군집화 적용. Damasio 의 수렴-발산 영역 이론 (Convergence-Divergence-Zone) 이 정량 재현됨."
-  - 우: "**POYO-SSL** (자기지도학습, SSL, Self-Supervised Learning) — 동물 신경 이질성을 대비 학습 신호로 활용함. 초기 무학습 기준선 대비 12~13%p 성능 향상 · 영화 프레임 복원 구조적 유사도 (SSIM) 0.593 (범위 0~1, 1.0이 이론적 상한) 을 관찰함. Allen Brain Observatory · ICLR 2026 심사 중."
+  - 우: "**POYO-SSL** (자기지도학습) — 동물 신경 이질성을 대비 학습 신호로 활용함. 무학습 기준선 대비 12~13%p 성능 향상 · 영화 프레임 복원 구조적 유사도 SSIM 0.593 을 관찰함. Allen Brain Observatory · ICLR 2026 심사 중."
 
 **Row 3 — 임상·생성 응용**:
 - 마커 ③ 18pt Bold #003380
 - 헤드라인 14pt Bold #003380: "개인별 정서 상태를 뇌전도·심전도로 디코딩하고, 유전형을 결합한 임상 예측으로 확장함"
 - 3 chips:
-  - "**RYM (Revisit Your Memory)**: 뇌전도 → Stable Diffusion + MusicGen. 개인 정서 F1 점수 0.9 (정밀도·재현율 조화평균). 참가자 9명 × 2세션."
+  - "**RYM (Revisit Your Memory)**: 뇌전도 → Stable Diffusion + MusicGen. 개인 정서 F1 = 0.9. 참가자 9명 × 2세션."
   - "**CEBRA 경외 + 내수용감각**: VR 360° + 뇌전도 + 심전도. IS-RSA · Claude 3.5 Sonnet 언어 분석. *Communications Psychology* 출판."
   - "**유전형-뇌영상 임상 예측**: 청소년 우울증 (백질 연결) · 주의력결핍 과잉행동장애 (ADHD) 개인차 · 아동 다유전자 위험도 (polygenic risk) 구조 연구."
 
 **Bottom band** (전폭, italic 10pt #282945, 연한 라벤더 #EFEAF7):
-"DIVER 3단계 전략 — 1단계 사전학습 (비레이블 신경 데이터) → 2단계 정렬 (iEEG-Video-Speech 3중 모달, 100명 × 24시간) → 3단계 개인화 (실시간 피드백 닫힌 고리)   ·   주관: 서울대 차지욱 · 국내 공동: 이재윤·정천기 · 국외 공동: 프린스턴 Uri Hasson · 브룩헤이븐 Shinjae Yoo"
+"DIVER 3단계 전략 — 1단계 사전학습 (비레이블 신경 데이터) → 2단계 정렬 (iEEG-Video-Speech 3중 모달, 100명 × 24시간) → 3단계 개인화 (실시간 피드백 닫힌 고리)   ·   주관: 서울대 차지욱 · 국외 공동: 프린스턴 Uri Hasson · 브룩헤이븐 Shinjae Yoo"
 
 **Bottom-right**: "8 / 15" 12pt #5A5A6E.
 

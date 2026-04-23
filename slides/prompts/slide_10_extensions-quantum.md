@@ -13,8 +13,8 @@
 
 **Header**: "디코딩과제 3년차" 14pt #003380.
 
-**Title (24pt Bold #003380)**: "개발 모델을 비침습 뇌-컴퓨터 인터페이스·정신질환 바이오마커·대중 응용으로 확장하고, 양자 기계학습으로 주의력결핍 과잉행동장애의 다중 시스템 관여 패턴을 보고함"
-**Subtitle (14pt #0072B2)**: "차지욱·문태섭 Lab 응용·확장 라인"
+**Title (32pt Bold #003380)**: "응용 확장 + 양자 기계학습"
+**Subtitle (18pt #0072B2)**: "비침습 BCI · 정신질환 바이오마커 · 대중 응용 · 차지욱·문태섭 Lab"
 
 **Upper area (세로 55%) — 3개 응용 카드** (동일 크기, #EDF6FC, 얇은 #0072B2 테두리):
 
@@ -36,10 +36,8 @@
 **하단 띠 (세로 30%) — 양자 기계학습**:
 - 배경 연한 파랑 #56B4E9 (10% 채도)
 - 제목 18pt Bold #003380: "신기술 확장 — 양자 기계학습 (Quantum Machine Learning) 탐색"
-- 3개 얇은 칩 (흰 배경, #56B4E9 테두리, 11pt #282945):
-  - "**확장 가능한 양자 강화학습 (Quantum Reinforcement Learning) 프레임워크** (코드명 Quantum Mario): 다중 양자 칩 앙상블 아키텍처 설계"
-  - "**양자 시계열 트랜스포머 (Quantum Time-series Transformer)**: 휴지기 fMRI 분석 · 유니타리 시간 임베딩 + 유니타리 선형 결합 (LCU, Linear Combination of Unitaries) + 양자 특이값 변환 (QSVT, Quantum Singular Value Transformation) · 주의력결핍 과잉행동장애의 다중 시스템 관여 패턴을 보고함"
-  - "**혼합 양자 강화학습 (Hybrid Quantum RL)**: 논문 'Over the Quantum Rainbow' — 혼합 양자-고전 강화학습의 해석 연구 (진행 중)"
+- 1개 핵심 칩 (흰 배경, #56B4E9 테두리, 12pt #282945):
+  - "**양자 시계열 트랜스포머 (Quantum Time-series Transformer)**: 휴지기 fMRI 분석 · 유니타리 시간 임베딩 + 유니타리 선형 결합 (LCU) + 양자 특이값 변환 (QSVT) · 주의력결핍 과잉행동장애의 다중 시스템 관여 패턴을 보고함"
 - 하단 캡션 10pt #5A5A6E: "양자 기계학습 라인은 문태섭 Lab 주도 · 기존 디지털 모델의 계산 복잡도 한계를 양자 중첩 (superposition) 으로 확장 시도함"
 
 **Bottom-right**: "11 / 15" 12pt #5A5A6E.
