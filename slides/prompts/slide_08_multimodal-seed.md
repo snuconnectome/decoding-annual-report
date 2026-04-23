@@ -1,4 +1,4 @@
-# S8 Prompt — 문태섭 Lab 다중 모달리티 · 의미 평가 (SEED)
+# S8 Prompt — 다중 모달리티 · 의미 평가 (SEED)
 
 ## API Configuration
 - model: gemini-3.1-flash-image-preview (nanobanana2)
@@ -14,7 +14,7 @@
 
 **Header**: "디코딩과제 3년차" 14pt #003380.
 
-**Title (32pt Bold #003380)**: "문태섭 Lab — 다중 모달리티 · 의미 평가 (SEED)"
+**Title (32pt Bold #003380)**: "다중 모달리티 · 의미 평가 (SEED)"
 **Subtitle (18pt #584B9F)**: "평가항목 제5번 · 달성도 100% · 인간 판단 정렬 평가체계 + 시각-언어 모델"
 
 **Left accent bar**: #584B9F · 8px.

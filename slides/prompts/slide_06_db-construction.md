@@ -16,20 +16,20 @@
 **Header**: "디코딩과제 3년차" 14pt #003380.
 
 **Title (32pt Bold #003380)**: "데이터베이스 구축 — 정서 맥락 디코딩의 양측 기반"
-**Subtitle (18pt #0072B2)**: "평가항목 제1번 (비중 25%) · 이상아 Lab (사람) · 최형진 Lab (동물) · 달성도 100%"
+**Subtitle (18pt #0072B2)**: "평가항목 제1번 (비중 25%) · 사람·동물 양측 공동 수행 · 달성도 100%"
 
 **Top-right Hero**: 원형 "100%" 36pt Bold #E69F00 + 하단 "달성도" 11pt #5A5A6E.
 
-**Animal block (상단, 세로 약 26%)** — 최형진 Lab:
+**Animal block (상단, 세로 약 26%)** — 동물:
 - 배경 #FDECE2, 좌측 #D55E00 8px bar
-- 헤드라인 15pt Bold #003380: "자유 행동 동물의 정서·신경 동시 측정 환경을 구축함"
+- 헤드라인 15pt Bold #003380: "동물 — 자유 행동 정서·신경 동시 측정 환경 구축"
 - **중앙 diagram (가로 50%)**: flat line 설치류 실루엣 + 머리에 연결된 광섬유. 설치류 몸에 작은 골격 포인트 마커 표기.
 - **우측 3 bullets 12pt #282945**:
   - "• **3D 골격 DB** · DeepLabCut 멀티뷰 · 행동 4종 (그루밍·보행·rearing·drinking)"
   - "• **VTA-NAc 광유전학** · DAT-cre 마우스 · AAV5-ChrimsonR + AAV9-GRAB_DA1h 도파민 형광 센서"
   - "• 594 nm · 30s · 5/10/20 Hz 광자극 + fiber photometry 동시 측정"
 
-**Human block (하단, 세로 약 54%)** — 이상아 Lab:
+**Human block (하단, 세로 약 54%)** — 사람:
 - 배경 #EDF6FC, 좌측 #11604B 8px bar
 - 좌우 2개 패널, 얇은 #0072B2 테두리
 

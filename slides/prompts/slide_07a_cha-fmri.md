@@ -1,4 +1,4 @@
-# S7A Prompt — 차지욱 Lab ① fMRI 파운데이션 모델
+# S7A Prompt — fMRI 파운데이션 모델 ①
 
 ## API Configuration
 - model: gemini-3.1-flash-image-preview (nanobanana2)
@@ -15,7 +15,7 @@
 
 **Header**: "디코딩과제 3년차" 14pt #003380.
 
-**Title (32pt Bold #003380)**: "차지욱 Lab ① — fMRI 파운데이션 모델"
+**Title (32pt Bold #003380)**: "기능적 자기공명영상 (fMRI) 파운데이션 모델 ①"
 **Subtitle (18pt #0072B2)**: "평가항목 제2·제4번 · 달성도 100% · UKB+HCP+ABCD 약 5만명 사전학습으로 범용 뇌 표상 확보"
 
 **Left accent bar**: #CC79A7 · 8px.

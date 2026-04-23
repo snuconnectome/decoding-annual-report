@@ -1,4 +1,4 @@
-# S7B Prompt — 차지욱 Lab ② EEG/iEEG 파운데이션 + 임상·생성 응용
+# S7B Prompt — EEG/iEEG 파운데이션 + 임상·생성 응용 ②
 
 ## API Configuration
 - model: gemini-3.1-flash-image-preview (nanobanana2)
@@ -14,7 +14,7 @@
 
 **Header**: "디코딩과제 3년차" 14pt #003380.
 
-**Title (32pt Bold #003380)**: "차지욱 Lab ② — EEG/iEEG 파운데이션 + 임상·생성 응용"
+**Title (32pt Bold #003380)**: "뇌전도 (EEG) · 두개내 뇌전도 (iEEG) 파운데이션 + 임상·생성 응용 ②"
 **Subtitle (18pt #0072B2)**: "평가항목 제2·제4번 · 달성도 100% · 전기생리 사전학습의 멱법칙 스케일링 경향 보고"
 
 **Left accent bar**: #CC79A7 · 8px.
@@ -57,7 +57,7 @@
 ## Style Rules
 - Row 1 DIVER 3-Phase diagram 이 시각 앵커
 - Row 2/3 의 아이콘은 flat line · 평면 실루엣 (실제 이모지 아닌 아이콘 렌더)
-- 차지욱 Lab 분홍 accent bar 좌측
+- 분홍 accent bar 좌측 (Lab 색 체계)
 
 ## Negative
 - 실제 이모지 문자 렌더 금지 (아이콘으로만)
