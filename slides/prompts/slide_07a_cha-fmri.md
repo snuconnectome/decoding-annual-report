@@ -62,7 +62,7 @@
 **Bottom band** (전폭, 10pt #282945, 연한 민트 #E7F0ED):
 "**TabLeT** (2D DCAE 토크나이저) · UKB 8,178 + HCP 1,061 + ADHD-200 533 · CVPR 심사 중  |  **잠재 확산 트랜스포머** · 3D VQ-GAN · 4D 시공간 fMRI 생성"
 
-**Bottom-right**: "7 / 15" 12pt #5A5A6E.
+**Bottom-right**: "7 / 14" 12pt #5A5A6E.
 
 ## Style Rules
 - 각 카드 중앙에 작은 도식 (그래프·게이지·띠·아이콘) — 텍스트 밀도 감축 시각 앵커

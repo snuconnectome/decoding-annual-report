@@ -12,7 +12,7 @@
 
 ## MASTER THEME (snu_neurox)
 - Layout: 5개 방향 카드 수평 + 예산 막대 하단
-- Page number: "13 / 15"
+- Page number: "13 / 14"
 
 ## Prompt for nanobanana
 
@@ -59,7 +59,7 @@
 **막대 하단 캡션** 12pt #5A5A6E:
 "주요 항목: 연구자 인건비 64,896 · 학생 인건비 189,520 · 연구활동비 95,081 · 연구수당 51,352 · 장비비 32,000 · 재료비 35,901 (단위: 천원 = 원의 1,000배)"
 
-**Bottom-right**: "13 / 15" 12pt #5A5A6E.
+**Bottom-right**: "13 / 14" 12pt #5A5A6E.
 
 ## Style Rules
 - 5개 카드 동일 너비

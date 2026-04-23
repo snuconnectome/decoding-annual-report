@@ -13,7 +13,7 @@
 
 ## MASTER THEME (snu_neurox)
 - Layout: 3개 대형 hero 수치 수평 정렬
-- Page number: "12 / 15"
+- Page number: "12 / 14"
 
 ## Prompt for nanobanana
 
@@ -51,7 +51,7 @@
 **Bottom strip** (13pt #5A5A6E, 왼쪽 정렬):
 "3차년도 활성 평가항목 4개 (제1·제2·제4·제5번) 전수 달성도 100% · 평가항목 제3번 (신경과학 메커니즘 규명, 비중 10%) 은 4차년도 (2026) 개시 예정"
 
-**Bottom-right**: "12 / 15" 12pt #5A5A6E.
+**Bottom-right**: "12 / 14" 12pt #5A5A6E.
 
 ## Style Rules
 - 미니멀: 흰 배경 + 3개 거대 숫자

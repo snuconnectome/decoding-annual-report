@@ -40,7 +40,7 @@ Bottom legend area (small 13pt #5A5A6E): 4 tiny color squares in a row with labe
 - [swatch #CC79A7] "차지욱 Lab (기능적 자기공명영상·뇌전도 파운데이션 모델)"
 - [swatch #584B9F] "문태섭 Lab (시각-언어 모델 · 시맨틱 평가 SEED)"
 
-Bottom-right: "5 / 15" in 12pt #5A5A6E.
+Bottom-right: "5 / 14" in 12pt #5A5A6E.
 
 ## Style Rules
 - 5 cards in horizontal row with straight arrows between them

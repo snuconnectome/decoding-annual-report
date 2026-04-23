@@ -12,7 +12,7 @@
 
 ## MASTER THEME (snu_neurox)
 - Layout: 2×2 사분면 매트릭스
-- Page number: "14 / 15"
+- Page number: "14 / 14"
 
 ## Prompt for nanobanana
 
@@ -61,7 +61,7 @@
   - "• 소아청소년 정신건강 조기 개입 도구 (자살 예방 포함)"
   - "• 공공 안전 인공지능 응용 가능성 확보"
 
-**Bottom-right**: "14 / 15" 12pt #5A5A6E.
+**Bottom-right**: "14 / 14" 12pt #5A5A6E.
 
 ## Style Rules
 - 동일 2×2 사분면, 4가지 연한 배경 색상

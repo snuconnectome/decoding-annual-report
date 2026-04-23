@@ -52,10 +52,7 @@
   - **아이콘 (VR 헤드셋)**: "CEBRA 경외 + 내수용감각 · VR 360° + IS-RSA · *Communications Psychology* 2025"
   - **아이콘 (DNA 나선)**: "유전형 기반 임상 예측 · 청소년 우울증 · 주의력결핍 과잉행동장애 (ADHD) · 아동 polygenic risk"
 
-**Bottom band** (전폭, 10pt #282945, 연한 라벤더 #EFEAF7, italic):
-"주관: 서울대 차지욱 · 국외 공동: 프린스턴 Uri Hasson · 브룩헤이븐 Shinjae Yoo"
-
-**Bottom-right**: "8 / 15" 12pt #5A5A6E.
+**Bottom-right**: "8 / 14" 12pt #5A5A6E.
 
 ## Style Rules
 - Row 1 DIVER 3-Phase diagram 이 시각 앵커

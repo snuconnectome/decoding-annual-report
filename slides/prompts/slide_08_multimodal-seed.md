@@ -26,7 +26,7 @@
 **Upper — SEED 블록 (세로 약 50%)**:
 - 헤드라인 16pt Bold #003380: "기존 지표가 인간 판단과 체계적으로 괴리됨을 드러내고, 객체·의미·지각 3축 통합 평가체계를 제안함"
 - 풀네임 11pt #5A5A6E: "SEED — Semantic Evaluation for Visual Brain Decoding"
-- 저자 10pt #5A5A6E (1줄): "Juhyeon Park · Peter Yongho Kim · Jiook Cha · Shinjae Yoo · Taesup Moon (교신) · SNU + BNL"
+- 기관 10pt #5A5A6E: "서울대학교 + 미국 브룩헤이븐 국립연구소 (BNL) 공동"
 
 **3 지표 카드** (#EDF6FC, #56B4E9 테두리, 각 카드 중앙 아이콘):
 - **카드 1 — Object F1**:
@@ -62,7 +62,7 @@
   - "• SEED 가 PixCorr · SSIM · CLIP · EffNet 등 기존 8 지표 대비 정합 개선"
   - "• MindEye2 검색 평가 98%+ 는 의미 근접 오차·세부 혼동을 가림 · ICLR 2026 심사"
 
-**Bottom-right**: "9 / 15" 12pt #5A5A6E.
+**Bottom-right**: "9 / 14" 12pt #5A5A6E.
 
 ## Style Rules
 - 각 지표 카드 중앙 아이콘 (flat line · 평면 기하)

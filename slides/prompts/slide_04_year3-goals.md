@@ -48,7 +48,7 @@ Bottom-right card (평가항목 제5번):
 
 Bottom annotation (small 11pt #5A5A6E, left-aligned): "※ 5개년 기준 평가항목 6개 (제1·2·3·4·5·6번) 중 3차년도 활성 4개 (제1·2·4·5번) 에 비중 100% 재분배 · 평가항목 제3번 '신경과학 메커니즘 규명' (비중 10%) 은 4차년도 (2026) 개시 예정"
 
-Bottom-right: "4 / 15" in 12pt #5A5A6E.
+Bottom-right: "4 / 14" in 12pt #5A5A6E.
 
 ## Style Rules
 - Equal-sized cards in 2×2 grid

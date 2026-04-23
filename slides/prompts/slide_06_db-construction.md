@@ -54,7 +54,7 @@
 **하단 캡션** (14pt #282945, 가운데):
 "인간 92명 다중 모달리티 DB + 동물 자유 행동·도파민 회로 측정 프로토콜 구축"
 
-**Bottom-right**: "6 / 15" 12pt #5A5A6E.
+**Bottom-right**: "6 / 14" 12pt #5A5A6E.
 
 ## Style Rules
 - 모든 아이콘·도식 flat line · 평면 실루엣 · SNU Blue/Neural Teal/Lab color 팔레트 내
